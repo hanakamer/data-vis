@@ -1,0 +1,31 @@
+{
+  "name": "data-vis",
+  "version": "1.0.0",
+  "description": "Data Visualization project on a small sample using d3.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanakamer/data-vis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanakamer/data-vis/issues"
+  },
+  "homepage": "https://github.com/hanakamer/data-vis#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.8.4"
+  }
+}
