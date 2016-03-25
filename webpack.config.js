@@ -24,10 +24,6 @@ const common = {
      loader: 'style!css!less',
      include: PATHS.app
    },
-   { test: /\.css$/,
-     loader: 'style-loader!css-loader',
-     include: PATHS.app
-   },
  ]
  },
  watch: true
