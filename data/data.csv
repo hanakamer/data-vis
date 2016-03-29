@@ -7,16 +7,16 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 12:15:55,Bilgisayar muhendisi,Bilisim Teknolojileri,9,Evet,Yüksek lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Muhendisligi,Bilgisayar Muhendisligi,
 2/26/2016 12:17:47,Software developer,Bilisim Teknolojileri,5,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 12:20:25,Front-end developer,Bilisim Teknolojileri,7,Hayır,Lisans,Hayır,,,Diger,,,
-2/26/2016 12:21:50,Kreatif direktor,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Evet,,,Iletisim,Isletme,,
-2/26/2016 12:24:32,Jeofizik Mühendisi ,Muhendislik,8,Evet,Lisans,Evet,,,Muhendislik,Jeofizik ,,
+2/26/2016 12:21:50,Kreatif direktor,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Evet,,,Iletisim,Isletme,,
+2/26/2016 12:24:32,Jeofizik Mühendisi ,Muhendis,8,Evet,Lisans,Evet,,,Muhendislik,Jeofizik ,,
 2/26/2016 12:27:15,Software Engineer,Bilisim Teknolojileri,7,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
-2/26/2016 12:30:34,deniz ulaştırma işletme mühendisi,Muhendislik,8,Evet,Lisans,Hayır,,,Muhendislik,,,
-2/26/2016 12:31:59,Jeofizik mühendisliği,Muhendislik,8,Evet,Yüksek lisans,Evet,,,Muhendislik,Jeofizik mühendisliği,Jeofizik mühendisliği,
-2/26/2016 12:33:51,Linguist,"Medya, İletisim ve Yayincilik",6,Evet,Lisans,Evet,,,Sosyal Bilimler,İTÜ Bilgi Teknolojileri,,
+2/26/2016 12:30:34,deniz ulaştırma işletme mühendisi,Muhendis,8,Evet,Lisans,Hayır,,,Muhendislik,,,
+2/26/2016 12:31:59,Jeofizik mühendisliği,Muhendis,8,Evet,Yüksek lisans,Evet,,,Muhendislik,Jeofizik mühendisliği,Jeofizik mühendisliği,
+2/26/2016 12:33:51,Linguist,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Evet,,,Sosyal Bilimler,İTÜ Bilgi Teknolojileri,,
 2/26/2016 12:35:22,Software Developer,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,,Isletme,,,
 2/26/2016 12:35:34,Junior Java,Bilisim Teknolojileri,8,Evet,Lise,Evet,,,-,,,
 2/26/2016 12:35:51,Yazılım Geliştirici,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,,Iktisat,,,
-2/26/2016 12:41:26,inşaat muhendisi,Muhendislik,6,Evet,Yüksek lisans,Hayır,,Insaat Muhendisligi,Muhendislik,,,
+2/26/2016 12:41:26,inşaat muhendisi,Muhendis,6,Evet,Yüksek lisans,Hayır,,Insaat Muhendisligi,Muhendislik,,,
 2/26/2016 12:42:54,Yazılım Uzmanı,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 12:45:34,Front End Developer,Bilisim Teknolojileri,7,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 12:47:40,Öğretim Üyesi,Akademik,10,Evet,Doktora,Hayır,,,?,,,
@@ -25,16 +25,16 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 12:52:46,Frontend Developer ,Bilisim Teknolojileri,10,Hayır,Yüksek lisans,Hayır,,Kimya,Fen Bilimleri,Bilgisayar mühendisliği ,,
 2/26/2016 12:54:09,Sosyolog sosyal çalışmaci,Bilim,8,Evet,Yüksek lisans,Evet,,Sosyoloji,Sosyal Bilimler,Sosyoloji,,
 2/26/2016 12:54:31,Yazılım Geliştirici,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
-2/26/2016 12:54:34,Jeofizik Mühendisi,Muhendislik,2,Hayır,Lisans,Evet,,Jeofizik,Muhendislik,Jeofizik Mühendisliği,,
+2/26/2016 12:54:34,Jeofizik Mühendisi,Muhendis,2,Hayır,Lisans,Evet,,Jeofizik,Muhendislik,Jeofizik Mühendisliği,,
 2/26/2016 12:56:03,front-end developer,Bilisim Teknolojileri,10,Hayır,Lise,Hayır,,,-,,,
 2/26/2016 12:56:10,Software Developer,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,Sosyoloji,Sosyal Bilimler,,,
-2/26/2016 12:58:02,içerik yazarı,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Iletisim,,,
+2/26/2016 12:58:02,içerik yazarı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,
 2/26/2016 12:58:09,Yazılım geliştirici,Bilisim Teknolojileri,4,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 12:58:34,Tıp doktoru,Saglik ve Sosyal Hizmetler,3,Evet,Yüksek lisans,Hayır,,Tip,Saglik,Tip,,
-2/26/2016 12:59:26,Mütercim Tercüman,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
+2/26/2016 12:59:26,Mütercim Tercüman,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
 2/26/2016 13:00:17,Yazilim Muhendisi,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:00:18,yazilim,Bilisim Teknolojileri,9,Hayır,Yüksek lisans,Hayır,,Biyokimya,Fen Bilimleri,genetik,,
-2/26/2016 13:01:58,Jeofizik mühendisliği,Muhendislik,5,Evet,Lisans,Evet,,Jeofizik,Muhendislik,Jeofizik mühendisliği,,
+2/26/2016 13:01:58,Jeofizik mühendisliği,Muhendis,5,Evet,Lisans,Evet,,Jeofizik,Muhendislik,Jeofizik mühendisliği,,
 2/26/2016 13:03:07,Fizik Öğretmeni,Egitim,1,Evet,Yüksek lisans,Evet,,Fizik Ogretmenligi,Egitim,Fizik Öğretmenliği ,,
 2/26/2016 13:05:10,büro elemanı,Temel Meslek,3,Hayır,Lisans,Hayır,,Isletme,Isletme,,,
 2/26/2016 13:07:22,Front end back end developer ,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,İşletme,,
@@ -43,41 +43,41 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 13:10:18,Yazılım mühendisi,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:11:27,Yazılım Geliştirici,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Mühendisliği,,
 2/26/2016 13:11:55,Arayüz Geliştirici,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,,Sosyal Bilimler,,,
-2/26/2016 13:16:16,öğrenci,,4,Evet,Lisans,Evet,,,,,,
-2/26/2016 13:16:59,çevirmen,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
+2/26/2016 13:16:16,öğrenci,Ogrenci,4,Evet,Lisans,Evet,,,,,,
+2/26/2016 13:16:59,çevirmen,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
 2/26/2016 13:18:03,Yazılım Geliştirme Uzmanı,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,,-,yok,yok,
 2/26/2016 13:18:15,lojistik operasyon,"Ulastirma, Lojistik ve Haberlesme",4,Evet,Lisans,Hayır,,,Iktisat,,,
 2/26/2016 13:19:34,Akademisyen - Bilgisayar Mühendisi,Akademik,10,Evet,Doktora,Hayır,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Mühendisliği,Bilgisayar Mühendisliği,
-2/26/2016 13:21:01,Editör,"Medya, İletisim ve Yayincilik",7,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,İngiliz Edebiyatı,,
+2/26/2016 13:21:01,Editör,"Medya, Iletisim ve Tasarim",7,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,İngiliz Edebiyatı,,
 2/26/2016 13:21:08,Yazılım,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Muhendisligi,,
 2/26/2016 13:23:17,Tübitak Proje Bursiyeri,Ticaret,10,Evet,Lisans,Evet,,Uluslararası Ticaret ve İşletmecilik,Isletme,İktisat,,
 2/26/2016 13:29:33,PM,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:31:15,Kimyager,Bilim,3,Evet,Yüksek lisans,Evet,,Kimya,Fen Bilimleri,kimya,kimya,
 2/26/2016 13:33:55,Developer,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,Ingilizce Ogretmenligi,Egitim,,,
 2/26/2016 13:37:11,Grafik Tasarım,Bilisim Teknolojileri,7,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
-2/26/2016 13:37:17,Tercümen,"Medya, İletisim ve Yayincilik",7,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,Mütercim-Tercümanlık,-,
+2/26/2016 13:37:17,Tercümen,"Medya, Iletisim ve Tasarim",7,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,Mütercim-Tercümanlık,-,
 2/26/2016 13:37:43,Bitokimyager,Bilim,7,Evet,Yüksek lisans,Evet,,Biyokimya,Fen Bilimleri,Tibbi biyokimya,Tibbi biyokimya,
 2/26/2016 13:37:46,Backend Developer,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:37:52,Bilgisayar Mühendisi,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Mühendisligi,,
 2/26/2016 13:39:11,Yazılım geliştirici,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,-,-,
 2/26/2016 13:40:33,Bİlgisayar Mühendisi,Bilisim Teknolojileri,7,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
-2/26/2016 13:41:46,Makine Mühendisi,Bilim ve Muhendislik,6,Evet,Lisans,Hayır,,Makine Muhendisligi,Muhendislik,yok,yok,
-2/26/2016 13:41:56,Editör ,"Medya, İletisim ve Yayincilik",4,Hayır,Lisans,Hayır,,Tasarım ve Basım Yayımcılık ,Iletisim,,,
+2/26/2016 13:41:46,Makine Mühendisi,Muhendis,6,Evet,Lisans,Hayır,,Makine Muhendisligi,Muhendislik,yok,yok,
+2/26/2016 13:41:56,Editör ,"Medya, Iletisim ve Tasarim",4,Hayır,Lisans,Hayır,,Tasarım ve Basım Yayımcılık ,Iletisim,,,
 2/26/2016 13:43:05,Astronom,Bilim,7,Evet,Lisans,Evet,,Astronomi ve Uzay Bilimleri,Fen Bilimleri,Jeodezi ve fotogrametri müh ,,
 2/26/2016 13:46:09,Yazılım Geliştirici,Bilisim Teknolojileri,7,Hayır,Lise,Evet,,Fizik Muhendisligi,Muhendislik,,,
 2/26/2016 13:47:02,Yazilim Gelistirici,Bilisim Teknolojileri,7,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilisim Teknolojileri,,
 2/26/2016 13:47:27,Arayüz Geliştiricisi,Bilisim Teknolojileri,10,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:48:00,Yazılım Geliştirici,Bilisim Teknolojileri,10,Hayır,Lise,Hayır,,,-,,,
-2/26/2016 13:48:24,Reklamcı,"Medya, İletisim ve Yayincilik",4,Hayır,Lisans,Hayır,,Isletme,Isletme,,,
-2/26/2016 13:48:51,Müyendis,Muhendislik,10,Evet,Lisans,Evet,,,Muhendislik,Yukardakinin aynı ,Kısmetse sonra ☺️,
+2/26/2016 13:48:24,Reklamcı,"Medya, Iletisim ve Tasarim",4,Hayır,Lisans,Hayır,,Isletme,Isletme,,,
+2/26/2016 13:48:51,Müyendis,Muhendis,10,Evet,Lisans,Evet,,,Muhendislik,Yukardakinin aynı ,Kısmetse sonra ☺️,
 2/26/2016 13:49:00,IT Sistem Yöneticisi ,Bilisim Teknolojileri,10,Hayır,Lisans,Evet,,,Diger,,,
 2/26/2016 13:50:03,Front-End Developer,Bilisim Teknolojileri,9,Evet,Lisans,Evet,,,Egitim,Yönetim Bilişim Sistemleri,,
 2/26/2016 13:51:13,Arayüz Geliştirici,Bilisim Teknolojileri,9,Hayır,Lise,Hayır,,,Diger,,,
 2/26/2016 13:51:58,front-end developer,Bilisim Teknolojileri,3,Hayır,Lisans,Hayır,,,Iktisat,,,
 2/26/2016 13:52:37,Bilgisayar Mühendisi,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:52:39,Yazılım Geliştirme Uzmanı,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,,Isletme,,,
-2/26/2016 13:53:14,çevre mühendisi,Bilim ve Muhendislik,6,Evet,Lisans,Hayır,,,Muhendislik,,,
-2/26/2016 13:53:42,Reklamcı,"Medya, İletisim ve Yayincilik",6,Evet,Lisans,Evet,,,Isletme,Medya ve İletişim Sistemleri,,
+2/26/2016 13:53:14,çevre mühendisi,Muhendis,6,Evet,Lisans,Hayır,,,Muhendislik,,,
+2/26/2016 13:53:42,Reklamcı,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Evet,,,Isletme,Medya ve İletişim Sistemleri,,
 2/26/2016 13:53:47,Front End Developer,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:54:11,Web Developer,Bilisim Teknolojileri,8,Hayır,Yüksek lisans,Hayır,,,Egitim,Biyoloji Öğretmenliği,,
 2/26/2016 13:54:15,Deneysel Futurist,,10,Hayır,Yüksek lisans,Hayır,,,,,,
@@ -93,12 +93,12 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 13:57:42,Bilgisayar Mühendisi,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Fen Bilimleri Enstitüsü Bilgisayar Mühendisliği,,
 2/26/2016 13:58:04,Yazılım,Bilisim Teknolojileri,9,Evet,Lise,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 13:59:14,Arayuz gelistiricisi,Bilisim Teknolojileri,9,Hayır,Lise,Evet,,,-,,,
-2/26/2016 13:59:54,Tasarım/Reklam,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Iletisim,,,
-2/26/2016 14:00:58,art director,"Medya, İletisim ve Yayincilik",8,Hayır,Lise,Evet,,,Iletisim,,,
-2/26/2016 14:01:16,Reklam Yazarlığı,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Evet,,,Iletisim,,,
+2/26/2016 13:59:54,Tasarım/Reklam,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,
+2/26/2016 14:00:58,art director,"Medya, Iletisim ve Tasarim",8,Hayır,Lise,Evet,,,Iletisim,,,
+2/26/2016 14:01:16,Reklam Yazarlığı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Evet,,,Iletisim,,,
 2/26/2016 14:01:19,Yazılımcı,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 14:02:50,front end developer,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Diger,,,
-2/26/2016 14:03:34,Şehir Plancısı,,8,Evet,Lisans,Evet,,,Mimarlik,Şehir planlama,,
+2/26/2016 14:03:34,Şehir Plancısı,Mimar,8,Evet,Lisans,Evet,,,Mimarlik,Şehir planlama,,
 2/26/2016 14:03:47,Yazılım Geliştirici,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 14:04:24,öğrenci/doktor,Saglik ve Sosyal Hizmetler,4,Evet,Lisans,Evet,,,Saglik,,,
 2/26/2016 14:04:35,öğrenci/doktor,Saglik ve Sosyal Hizmetler,4,Evet,Lisans,Evet,,,Saglik,,,
@@ -108,28 +108,28 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 14:07:54,Avukat,Adalet ve Guvenlik,7,Evet,Yüksek lisans,Evet,,,Hukuk,Adli Tıp,Hukuk Felsefesi ve Sosyolojisi,
 2/26/2016 14:09:02,Yazılım Mühendisi,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 14:09:27,Bilgisayar Programcısı,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,,Egitim,,,
-2/26/2016 14:09:33,Lab tek,,3,Evet,Lisans,Hayır,,,Fen Bilimleri,,,
+2/26/2016 14:09:33,Lab tek,Bilim,3,Evet,Lisans,Hayır,,,Fen Bilimleri,,,
 2/26/2016 14:09:35,Tasarımcı,Bilisim Teknolojileri,9,Evet,Lise,Evet,,,Guzel Sanatlar,,,
 2/26/2016 14:09:37,IT,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Diger,,,
-2/26/2016 14:09:54,Lab tek,,3,Evet,Lisans,Hayır,,,Fen Bilimleri,,,
-2/26/2016 14:10:10,Dijital Reklamcılık,"Medya, İletisim ve Yayincilik",8,Hayır,Lise,Evet,,,Hukuk,,,
+2/26/2016 14:09:54,Lab tek,Bilim,3,Evet,Lisans,Hayır,,,Fen Bilimleri,,,
+2/26/2016 14:10:10,Dijital Reklamcılık,"Medya, Iletisim ve Tasarim",8,Hayır,Lise,Evet,,,Hukuk,,,
 2/26/2016 14:11:23,Ui & ux designer,Bilisim Teknolojileri,4,Evet,Lise,Evet,,,Iletisim,,,
-2/26/2016 14:12:17,gemi acentesi,,10,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,
-2/26/2016 14:14:44,Teknik Çizim Uzmanı,,6,Hayır,Lisans,Hayır,,,Diger,,,
-2/26/2016 14:15:16,Sanat Yönetmeni,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Evet,,,Egitim,Görsel İletişim Tasarımı,,
+2/26/2016 14:12:17,gemi acentesi,Temel Meslek,10,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,
+2/26/2016 14:14:44,Teknik Çizim Uzmanı,Temel Meslek,6,Hayır,Lisans,Hayır,,,Diger,,,
+2/26/2016 14:15:16,Sanat Yönetmeni,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Evet,,,Egitim,Görsel İletişim Tasarımı,,
 2/26/2016 14:16:41,Grafik Tasarimci,Bilisim Teknolojileri,5,Hayır,Lise,Evet,,,Iletisim,,,
 2/26/2016 14:17:45,Yazılımcı,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Isletme,,,
 2/26/2016 14:18:28,Pazarlama,Ticaret,6,Hayır,Lisans,Evet,,,Sosyal Bilimler,Edebiyat bilimi,,
-2/26/2016 14:22:46,Reklamcılık,"Medya, İletisim ve Yayincilik",10,Evet,Lisans,Hayır,,,Iletisim,,,
+2/26/2016 14:22:46,Reklamcılık,"Medya, Iletisim ve Tasarim",10,Evet,Lisans,Hayır,,,Iletisim,,,
 2/26/2016 14:23:56,Web Tasarım Firma Sahibi,Is ve Yonetim,7,Hayır,Lisans,Hayır,,,Muhendislik,,,
 2/26/2016 14:25:06,Yazılım Uzmanı,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
-2/26/2016 14:27:24,Editör ,"Medya, İletisim ve Yayincilik",5,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
+2/26/2016 14:27:24,Editör ,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
 2/26/2016 14:30:25,Öğrenci- Freelance Web Developer-,Bilisim Teknolojileri,9,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,Okulun önemi yok a dostlar! Azimle seven daşı deler. Sevgiler Hörmetler! Şaka bir yana okul bir şey vermiyor. Mihindislik pohpohlaması içinde geberiyor gençlerimiz. Beni bu sistem böle yaptı! bölee,Okulun önemi yok a dostlar! Azimle seven daşı deler. Sevgiler Hörmetler! Şaka bir yana okul bir şey vermiyor. Mihindislik pohpohlaması içinde geberiyor gençlerimiz. Beni bu sistem böle yaptı! bölee,
-2/26/2016 14:32:09,insan kaynakları,Temel Meslek,5,Evet,Lise,Evet,,,Isletme,,,
+2/26/2016 14:32:09,insan kaynakları,Is ve Yonetim,5,Evet,Lise,Evet,,,Isletme,,,
 2/26/2016 14:36:55,Software Developer,Bilisim Teknolojileri,9,Hayır,Lise,Hayır,,,Diger,,,
 2/26/2016 14:39:18,lOJİSTİK,"Ulastirma, Lojistik ve Haberlesme",8,Hayır,Lisans,Hayır,,,Diger,,,
 2/26/2016 14:40:12,Web developer,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Diger,,,
-2/26/2016 14:41:30,Community menager,,4,Hayır,Lise,Evet,,,Iktisat,,,
+2/26/2016 14:41:30,Community menager,Is ve Yonetim,4,Hayır,Lise,Evet,,,Iktisat,,,
 2/26/2016 14:42:09,UX Designer,Bilisim Teknolojileri,8,Evet,Yüksek lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 14:43:32,DevOps,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,
 2/26/2016 14:43:45,Yazılım Uzmanı,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
@@ -146,28 +146,28 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 15:04:48,Bilisim,Bilisim Teknolojileri,5,Hayır,Lisans,Hayır,,,?,,,
 2/26/2016 15:07:22,yazılım geliştirici,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,,Iktisat,,,
 2/26/2016 15:07:37,MUHASEBE,Muhasebe,5,Evet,Lisans,Hayır,,,Isletme,,,
-2/26/2016 15:10:11,İş Zekası Uzmanı,,8,Hayır,Lisans,Evet,,,Fen Bilimleri,Ekonometri,,
+2/26/2016 15:10:11,İş Zekası Uzmanı,Is ve Yonetim,8,Hayır,Lisans,Evet,,,Fen Bilimleri,Ekonometri,,
 2/26/2016 15:11:29,Front-End Develoeper,Bilisim Teknolojileri,7,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,
 2/26/2016 15:14:52,ios developer,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,,Muhendislik,,,
-2/26/2016 15:14:56,Gazeteci,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,
+2/26/2016 15:14:56,Gazeteci,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,
 2/26/2016 15:15:56,Teknik Lider,Is ve Yonetim,8,Evet,Yüksek lisans,Hayır,,,Muhendislik,Is Yonetimi,,
 2/26/2016 15:20:38,Öğretmen,Egitim,3,Evet,Lisans,Hayır,,,Egitim,,,
 2/26/2016 15:21:40,yazılım geliştirici,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Muhendislik,,,
-2/26/2016 15:24:33,Biyomühendis,Bilim ve Muhendislik,4,Evet,Lisans,Evet,,,Fen Bilimleri,Biyomühendislik,,
+2/26/2016 15:24:33,Biyomühendis,Muhendis,4,Evet,Lisans,Evet,,,Fen Bilimleri,Biyomühendislik,,
 2/26/2016 15:25:15,hekim,Saglik ve Sosyal Hizmetler,8,Evet,Lise,Evet,,,Saglik,,,
 2/26/2016 15:25:21,yazılım geliştirici,Bilisim Teknolojileri,1,Hayır,Lisans,Hayır,,,Muhendislik,,,
 2/26/2016 15:27:02,Hekim,Saglik ve Sosyal Hizmetler,8,Evet,Yüksek lisans,Hayır,,,Saglik,Sağlık Yönetimi,,
-2/26/2016 15:29:54,İletişim Uzmanı,"Medya, İletisim ve Yayincilik",5,Hayır,Yüksek lisans,Hayır,,,Sosyal Bilimler,Siyasal ve Sosyal İletişim,,
+2/26/2016 15:29:54,İletişim Uzmanı,"Medya, Iletisim ve Tasarim",5,Hayır,Yüksek lisans,Hayır,,,Sosyal Bilimler,Siyasal ve Sosyal İletişim,,
 2/26/2016 15:32:08,ÖĞRETMEN ,Egitim,10,Evet,Lisans,Hayır,,,Egitim,,,
-2/26/2016 15:32:18,Jeofizik muhendisligi,Muhendislik,8,Evet,Lisans,Evet,,,Muhendislik,,,
+2/26/2016 15:32:18,Jeofizik muhendisligi,Muhendis,8,Evet,Lisans,Evet,,,Muhendislik,,,
 2/26/2016 15:32:25,Sanatçı,"Kultur, Sanat ve Tasarim",4,Evet,Lise,Evet,,,Guzel Sanatlar,,,
-2/26/2016 15:33:23,Çevirmen,,5,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
+2/26/2016 15:33:23,Çevirmen,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,
 2/26/2016 15:34:48,Ogretmen,Egitim,9,Hayır,Lisans,Hayır,,,Egitim,,,
 2/26/2016 15:37:59,IT Uzmanı,Bilisim Teknolojileri,10,Hayır,Lisans,Evet,,,Iktisat,Uluslararası İlişkilerde Big Data,,
 2/26/2016 15:39:40,Öğretmen,Egitim,8,Evet,Lisans,Hayır,,,Fen Bilimleri,,,
-2/26/2016 15:41:20,yapımcı,Sinema-TV,6,Evet,Lisans,Evet,,,Iletisim,,,
+2/26/2016 15:41:20,yapımcı,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Evet,,,Iletisim,,,
 2/26/2016 15:42:09,Yazılım Geliştiric / Firma Sahibi,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,,Isletme,,,
-2/26/2016 15:44:35,ogrenci,,5,Evet,Lise,Evet,,,Muhendislik,,,
+2/26/2016 15:44:35,ogrenci,Ogrenci,5,Evet,Lise,Evet,,,Muhendislik,,,
 2/26/2016 15:47:12,Diş hekimi ,Saglik ve Sosyal Hizmetler,7,Evet,Yüksek lisans,Hayır,,,Saglik,Diş hekimliği,,
 2/26/2016 15:48:12,Öğretim Elemanı,Egitim,7,Evet,Yüksek lisans,Evet,,,Egitim,,Çevre Mühendisliği,
 2/26/2016 15:49:00,Fizyoterapist,Saglik ve Sosyal Hizmetler,5,Evet,Lisans,Hayır,,,Saglik,,,
@@ -185,198 +185,198 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 16:09:30,Bilgisayar Mühendisi,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,,Isletme,,,
 2/26/2016 16:10:33,Front-End Developer,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,,Egitim,,,
 2/26/2016 16:13:44,İşletmeci,Is ve Yonetim,8,Hayır,Yüksek lisans,Hayır,,,Fen Bilimleri,Fizik,,
-2/26/2016 16:17:28,Makina mühendisi,Muhendislik,10,Evet,Yüksek lisans,Hayır,,,Muhendislik,Makina müh,,
-2/26/2016 16:21:55,Öğrenci,,8,Evet,Lise,Evet,,,Muhendislik,-,-,
+2/26/2016 16:17:28,Makina mühendisi,Muhendis,10,Evet,Yüksek lisans,Hayır,,,Muhendislik,Makina müh,,
+2/26/2016 16:21:55,Öğrenci,Ogrenci,8,Evet,Lise,Evet,,,Muhendislik,-,-,
 2/26/2016 16:24:26,Kurumsal markette yönetici,Is ve Yonetim,5,Hayır,Lise,Evet,,,Iktisat,,,
-2/26/2016 16:25:32,muhendis,Muhendislik,10,Hayır,Yüksek lisans,Hayır,,,Muhendislik,mba,,
+2/26/2016 16:25:32,muhendis,Muhendis,10,Hayır,Yüksek lisans,Hayır,,,Muhendislik,mba,,
 2/26/2016 16:28:55,Oyun geliştiricisi - Yazılım,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,
-2/26/2016 16:31:34,Makine Mühendisi,Muhendislik,4,Evet,Lisans,Hayır,,,Muhendislik,,,
+2/26/2016 16:31:34,Makine Mühendisi,Muhendis,4,Evet,Lisans,Hayır,,,Muhendislik,,,
 2/26/2016 16:38:16,IT İş Analisti,Bilisim Teknolojileri,10,Evet,Yüksek lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,İşletme Yönetimi,,
-2/26/2016 16:39:26,Şehir Plancısı ,,4,Evet,Lisans,Hayır,,,Mimarlik,,,
+2/26/2016 16:39:26,Şehir Plancısı ,Mimar,4,Evet,Lisans,Hayır,,,Mimarlik,,,
 2/26/2016 16:40:51,iş analisti,Bilisim Teknolojileri,6,Evet,Lisans,Evet,,,Muhendislik,,,
 2/26/2016 16:40:52,işsiz,,1,Hayır,Lisans,Hayır,,,Diger,,,
 2/26/2016 16:41:22,UI Designer,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,,Sosyal Bilimler,,,
-2/26/2016 16:41:33,öğrenci,,10,Evet,Lisans,Evet,,,Saglik,yok,yok,
+2/26/2016 16:41:33,öğrenci,Ogrenci,10,Evet,Lisans,Evet,,,Saglik,yok,yok,
 2/26/2016 16:42:19,Sismolog,Bilim,10,Hayır,Doktora,Hayır,,,Muhendislik,Kontrol Müh.,Jeofizik,
 2/26/2016 16:43:19,Öğretmen,Egitim,4,Evet,Lisans,Hayır,,,Egitim,,,
 2/26/2016 16:44:39,ön muhasebe,Muhasebe,10,Evet,Lise,Hayır,,,-,,,
-2/26/2016 16:49:58,Hemsire,Saglik,1,Evet,Lise,Hayır,,,Saglik,,,
+2/26/2016 16:49:58,Hemsire,Saglik ve Sosyal Hizmetler,1,Evet,Lise,Hayır,,,Saglik,,,
 2/26/2016 16:58:11,Pilot,,10,Hayır,Lisans,Hayır,,,Muhendislik,,,
 2/26/2016 17:01:58,porno yıldızı,,10,Hayır,Lise,Hayır,,,,,,
-2/26/2016 17:03:43,Öğrenci ,,4,Evet,Lise,Evet,,,Muhendislik,,,
+2/26/2016 17:03:43,Öğrenci ,Ogrenci,4,Evet,Lise,Evet,,,Muhendislik,,,
 2/26/2016 17:04:47,Öğretmen ,Egitim,5,Evet,Lisans,Hayır,,,Fen Bilimleri,,,
 2/26/2016 17:14:27,Bilgisayar Mühendisi,Bilisim Teknolojileri,10,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,4
 2/26/2016 17:14:35,Yazılım Geliştirme Mühendisi,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,3
-2/26/2016 17:19:08,makine mühendisliği,Muhendislik,4,Evet,Lisans,Hayır,,,Muhendislik,,,1
+2/26/2016 17:19:08,makine mühendisliği,Muhendis,4,Evet,Lisans,Hayır,,,Muhendislik,,,1
 2/26/2016 17:23:40,Ui designer,Bilisim Teknolojileri,10,Hayır,Lise,Hayır,,,-,,,5
 2/26/2016 17:27:33,Is Gelistirme Uzmani,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,,Iktisat,,,7
 2/26/2016 17:32:52,Araştırma Görevlisi,Akademik,8,Evet,Yüksek lisans,Evet,,,Fen Bilimleri,Histoloji ve Embriyoloji,Histoloji ve Embriyoloji,3
 2/26/2016 17:36:01,Bi Developer,Bilisim Teknolojileri,9,Hayır,Yüksek lisans,Hayır,,,Iktisat,ekonomi,,10
 2/26/2016 17:38:18,Yazilim Muhendisligi,Bilisim Teknolojileri,10,Evet,Yüksek lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,Bahcesehir Yazilim Muhendisligi,,2
 2/26/2016 17:42:07,Bilgisayar muhendisi,Bilisim Teknolojileri,8,Evet,Yüksek lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,Muhendislik yonetimi,,5
-2/26/2016 17:43:50,Metin Yazarı,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Evet,,,Iletisim,,,1
+2/26/2016 17:43:50,Metin Yazarı,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Evet,,,Iletisim,,,1
 2/26/2016 17:47:40,Öğretmen,Egitim,10,Evet,Lisans,Hayır,,,Egitim,,,23
-2/26/2016 17:49:14,Deniz Ulaştırma İşletme Mühendisliği,Muhendislik,8,Evet,Lisans,Hayır,,,Egitim,,,9
-2/26/2016 17:49:33,Reklamcı,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Iletisim,,,6
-2/26/2016 17:49:44,PRODÜKTÖR,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Iletisim,,,2
-2/26/2016 17:50:09,Sosyal Medya,"Medya, İletisim ve Yayincilik",3,Evet,Lisans,Hayır,,,Iletisim,,,4
-2/26/2016 17:50:26,Reklamcı ,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 17:49:14,Deniz Ulaştırma İşletme Mühendisliği,Muhendis,8,Evet,Lisans,Hayır,,,Egitim,,,9
+2/26/2016 17:49:33,Reklamcı,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Iletisim,,,6
+2/26/2016 17:49:44,PRODÜKTÖR,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Iletisim,,,2
+2/26/2016 17:50:09,Sosyal Medya,"Medya, Iletisim ve Tasarim",3,Evet,Lisans,Hayır,,,Iletisim,,,4
+2/26/2016 17:50:26,Reklamcı ,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,3
 2/26/2016 17:50:29,bilgisayar mühendisi,Bilisim Teknolojileri,9,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Yönetim bilişim sistemleri,yok,3
 2/26/2016 17:50:31,avukat,Adalet ve Guvenlik,4,Evet,Lisans,Hayır,,,Hukuk,,,7
 2/26/2016 17:50:45,Doğum Fotoğrafçısı,"Kultur, Sanat ve Tasarim",7,Hayır,Lisans,Hayır,,,Diger,,,6
-2/26/2016 17:51:00,videographer,"Medya, İletisim ve Yayincilik",10,Hayır,Lisans,Hayır,,,Mimarlik,,,12
-2/26/2016 17:51:28,öğrenci,,5,Evet,Orta okul,Evet,,,-,,,10
+2/26/2016 17:51:00,videographer,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Hayır,,,Mimarlik,,,12
+2/26/2016 17:51:28,öğrenci,Ogrenci,5,Evet,Orta okul,Evet,,,-,,,10
 2/26/2016 17:51:29,Dijital pazarlama ,Ticaret,7,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,6
 2/26/2016 17:51:51,grafiker,Bilisim Teknolojileri,7,Evet,Lisans,Evet,,,Guzel Sanatlar,,,3
 2/26/2016 17:52:20,Sosyal Medya Yöneticisi,Bilisim Teknolojileri,10,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,4
-2/26/2016 17:52:26,Jeofizik mühendisi ,Muhendislik,8,Evet,Lisans,Evet,,,Muhendislik,Jeofizik mühendisi ,,3
+2/26/2016 17:52:26,Jeofizik mühendisi ,Muhendis,8,Evet,Lisans,Evet,,,Muhendislik,Jeofizik mühendisi ,,3
 2/26/2016 17:53:00,Fotoğrafçılık,"Kultur, Sanat ve Tasarim",9,Hayır,Lisans,Hayır,,,Diger,,,1
 2/26/2016 17:53:26,Avukat,Adalet ve Guvenlik,5,Evet,Lisans,Hayır,,,Hukuk,,,5
 2/26/2016 17:53:39,front-end developer,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,2
-2/26/2016 17:54:10,Editör,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,-,-,1
-2/26/2016 17:54:31,Reklam Yazarı,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Iletisim,,,1
-2/26/2016 17:55:12,Sosyal medya uzmanı,"Medya, İletisim ve Yayincilik",7,Evet,Yüksek lisans,Hayır,,,Iletisim,İletişim bilimleri,,5
-2/26/2016 17:55:20,sosyal Medya Uzmanı,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,5
+2/26/2016 17:54:10,Editör,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,-,-,1
+2/26/2016 17:54:31,Reklam Yazarı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,1
+2/26/2016 17:55:12,Sosyal medya uzmanı,"Medya, Iletisim ve Tasarim",7,Evet,Yüksek lisans,Hayır,,,Iletisim,İletişim bilimleri,,5
+2/26/2016 17:55:20,sosyal Medya Uzmanı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,5
 2/26/2016 17:55:20,Terrarium tasarımcısı,"Kultur, Sanat ve Tasarim",4,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,1
-2/26/2016 17:55:25,Reklamcı,"Medya, İletisim ve Yayincilik",9,Evet,Yüksek lisans,Hayır,,,Iletisim,Halkla İlişkiler ve Tanıtım,,4
-2/26/2016 17:56:56,Reklam Yazarı,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Evet,,,Iletisim,Gazetecilik,,2
-2/26/2016 17:57:22,Gazetecilik,"Medya, İletisim ve Yayincilik",2,Evet,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 17:55:25,Reklamcı,"Medya, Iletisim ve Tasarim",9,Evet,Yüksek lisans,Hayır,,,Iletisim,Halkla İlişkiler ve Tanıtım,,4
+2/26/2016 17:56:56,Reklam Yazarı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Evet,,,Iletisim,Gazetecilik,,2
+2/26/2016 17:57:22,Gazetecilik,"Medya, Iletisim ve Tasarim",2,Evet,Lisans,Hayır,,,Iletisim,,,3
 2/26/2016 17:58:11,Pazarlama iletişimi uzmanı,Ticaret,8,Hayır,Lisans,Hayır,,,Iktisat,,,3
-2/26/2016 17:58:55,freelance illüstratör/yazar,"Medya, İletisim ve Yayincilik",4,Hayır,Lisans,Evet,,,Mimarlik,grafik tasarım,,4
+2/26/2016 17:58:55,freelance illüstratör/yazar,"Medya, Iletisim ve Tasarim",4,Hayır,Lisans,Evet,,,Mimarlik,grafik tasarım,,4
 2/26/2016 17:59:21,Bilgisayar Yazılımcısı,Bilisim Teknolojileri,10,Hayır,Lisans,Evet,,,Iletisim,,,5
-2/26/2016 17:59:31,Klinik psikolog,Saglik,10,Evet,Yüksek lisans,Hayır,,,Saglik,Klinik / Adli Psikoloji (çift anadal),,9 yıl
-2/26/2016 17:59:32,Affiliate Manager,,10,Evet,Lisans,Hayır,,,Iktisat,,,3
-2/26/2016 17:59:34,Animatör ,"Medya, İletisim ve Yayincilik",4,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,7
-2/26/2016 17:59:39,iletişim danışmanlığı ,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Iletisim,,,9.5
+2/26/2016 17:59:31,Klinik psikolog,Saglik ve Sosyal Hizmetler,10,Evet,Yüksek lisans,Hayır,,,Saglik,Klinik / Adli Psikoloji (çift anadal),,9 yıl
+2/26/2016 17:59:32,Affiliate Manager,Ticaret,10,Evet,Lisans,Hayır,,,Iktisat,,,3
+2/26/2016 17:59:34,Animatör ,"Medya, Iletisim ve Tasarim",4,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,7
+2/26/2016 17:59:39,iletişim danışmanlığı ,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,9.5
 2/26/2016 17:59:41,Front End Developer,Bilisim Teknolojileri,7,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,4
-2/26/2016 18:00:29,Sosyal Medya - İçerik Editörü,"Medya, İletisim ve Yayincilik",10,Hayır,Lisans,Evet,,,Sosyal Bilimler,,,2
+2/26/2016 18:00:29,Sosyal Medya - İçerik Editörü,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Evet,,,Sosyal Bilimler,,,2
 2/26/2016 18:01:46,Doktor,Saglik ve Sosyal Hizmetler,2,Evet,Lisans,Hayır,,,Saglik,,,1
-2/26/2016 18:01:58,Ses mühendisliği,,5,Hayır,Lisans,Evet,,,Iktisat,,,1
-2/26/2016 18:02:16,Reklamci,"Medya, İletisim ve Yayincilik",6,Hayır,Lisans,Hayır,,,Iktisat,,,4
+2/26/2016 18:01:58,Ses mühendisliği,"Medya, Iletisim ve Tasarim",5,Hayır,Lisans,Evet,,,Iktisat,,,1
+2/26/2016 18:02:16,Reklamci,"Medya, Iletisim ve Tasarim",6,Hayır,Lisans,Hayır,,,Iktisat,,,4
 2/26/2016 18:02:32,Dijital pazarlama,Ticaret,8,Hayır,Lisans,Hayır,,,Iktisat,,,1 yıl
-2/26/2016 18:02:47,Reklamcı,"Medya, İletisim ve Yayincilik",7,Hayır,Lisans,Hayır,,,Muhendislik,,,5
-2/26/2016 18:03:29,Reklam,"Medya, İletisim ve Yayincilik",4,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,6
-2/26/2016 18:04:06,Reklamcı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Iktisat,,,6
+2/26/2016 18:02:47,Reklamcı,"Medya, Iletisim ve Tasarim",7,Hayır,Lisans,Hayır,,,Muhendislik,,,5
+2/26/2016 18:03:29,Reklam,"Medya, Iletisim ve Tasarim",4,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,6
+2/26/2016 18:04:06,Reklamcı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Iktisat,,,6
 2/26/2016 18:04:47,Tasarım,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,4
-2/26/2016 18:05:01,proje yöneticisi,,8,Hayır,Lisans,Hayır,,,-,,,4
-2/26/2016 18:06:50,Deniz Ulaştırma İşletme Mühendisi,Muhendislik,2,Evet,Lisans,Hayır,,,-,,,2
+2/26/2016 18:05:01,proje yöneticisi,Bilisim Teknolojileri,8,Hayır,Lisans,Hayır,,,-,,,4
+2/26/2016 18:06:50,Deniz Ulaştırma İşletme Mühendisi,Muhendis,2,Evet,Lisans,Hayır,,,-,,,2
 2/26/2016 18:07:37,Ux designer,Bilisim Teknolojileri,4,Evet,Lise,Evet,,,Iletisim,,,10
 2/26/2016 18:07:44,UI/UX Designer,Bilisim Teknolojileri,9,Evet,Lisans,Evet,,,Iletisim,,,4
-2/26/2016 18:07:47,insaat muhendisi,Muhendislik,7,Evet,Yüksek lisans,Hayır,,,Muhendislik,proje yonetimi,,5
-2/26/2016 18:09:10,öğrenci,,10,Evet,Lise,Evet,,,Muhendislik,,,0
-2/26/2016 18:10:18,Reklamcı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Egitim,,,6
+2/26/2016 18:07:47,insaat muhendisi,Muhendis,7,Evet,Yüksek lisans,Hayır,,,Muhendislik,proje yonetimi,,5
+2/26/2016 18:09:10,öğrenci,Ogrenci,10,Evet,Lise,Evet,,,Muhendislik,,,0
+2/26/2016 18:10:18,Reklamcı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Egitim,,,6
 2/26/2016 18:10:31,Vitrin Tasarımcısı,"Kultur, Sanat ve Tasarim",7,Hayır,Lisans,Evet,,,Iktisat,Uluslararası ilişkiler,,5 yıl
-2/26/2016 18:10:59,Yönetici Asistanı,,8,Evet,Lisans,Hayır,,,Iktisat,,,5 yıl
+2/26/2016 18:10:59,Yönetici Asistanı,Is ve Yonetim,8,Evet,Lisans,Hayır,,,Iktisat,,,5 yıl
 2/26/2016 18:11:25,satış danışmanı,Ticaret,5,Hayır,Lisans,Hayır,,,Iktisat,,,8
 2/26/2016 18:12:17,Elektrik-Elektronik Mühendisi,Elektrik ve Elektronik,8,Evet,Yüksek lisans,Evet,,,Muhendislik,Elektrik-Elektronik Mühendisliği,Elektrik-Elektronik Mühendisliği,5
-2/26/2016 18:12:28,reklamcı ,"Medya, İletisim ve Yayincilik",7,Hayır,Lisans,Hayır,,,Iktisat,,,2
-2/26/2016 18:12:53,Sosyal Medya Reklam Yoneticisi,"Medya, İletisim ve Yayincilik",7,Hayır,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 18:12:28,reklamcı ,"Medya, Iletisim ve Tasarim",7,Hayır,Lisans,Hayır,,,Iktisat,,,2
+2/26/2016 18:12:53,Sosyal Medya Reklam Yoneticisi,"Medya, Iletisim ve Tasarim",7,Hayır,Lisans,Hayır,,,Iletisim,,,3
 2/26/2016 18:15:23,Dijital Pazarlama & SEO Yöneticisi,Bilisim Teknolojileri,10,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,5
 2/26/2016 18:15:30,Front-end Developer,Bilisim Teknolojileri,7,Hayır,Lise,Evet,,,Isletme,,,7
-2/26/2016 18:17:19,Mühendis,Muhendislik,4,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,15
+2/26/2016 18:17:19,Mühendis,Muhendis,4,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,15
 2/26/2016 18:19:41,UI / UX Designer,Bilisim Teknolojileri,7,Hayır,Lise,Hayır,,,-,yok,yok,3
-2/26/2016 18:20:00,freelance yazar,,8,Evet,Lisans,Hayır,,,Sosyal Bilimler,yok,yok,7
+2/26/2016 18:20:00,freelance yazar,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Sosyal Bilimler,yok,yok,7
 2/26/2016 18:20:06,Yazılım geliştirici ,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar mühendisliği ,,2
-2/26/2016 18:20:19,Sigorta hasar uzmanı ,,1,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,1
-2/26/2016 18:21:58,Proje Yöneticisi,"Medya, İletisim ve Yayincilik",6,Evet,Lisans,Hayır,,,Iletisim,,,5
-2/26/2016 18:22:11,Fotoğrafçı / Sosyal Medya Jr.,,6,Hayır,Lise,Evet,,,Sosyal Bilimler,,,2
+2/26/2016 18:20:19,Sigorta hasar uzmanı ,Sigorta,1,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,1
+2/26/2016 18:21:58,Proje Yöneticisi,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Hayır,,,Iletisim,,,5
+2/26/2016 18:22:11,Fotoğrafçı / Sosyal Medya Jr.,"Medya, Iletisim ve Tasarim",6,Hayır,Lise,Evet,,,Sosyal Bilimler,,,2
 2/26/2016 18:22:18,İş analisti,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,,Muhendislik,,,3
-2/26/2016 18:22:27,Reklamcı,"Medya, İletisim ve Yayincilik",4,Evet,Lisans,Hayır,,,Iletisim,,,7
-2/26/2016 18:27:46,Reklamcılık,"Medya, İletisim ve Yayincilik",5,Evet,Lisans,Hayır,,,Iletisim,,,1
-2/26/2016 18:29:32,Müzik prodüktörü,,10,Hayır,Lisans,Hayır,,,Egitim,,,21
-2/26/2016 18:31:48,öğrenci,,2,Hayır,Lise,Evet,,,Muhendislik,yok,yok,17
-2/26/2016 18:32:38,Reklamcı,"Medya, İletisim ve Yayincilik",10,Evet,Lisans,Hayır,,,Iletisim,,,1
-2/26/2016 18:33:51,Öğrenci ,,1,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,16
-2/26/2016 18:33:27,reklam,"Medya, İletisim ve Yayincilik",7,Hayır,Lisans,Hayır,,,Fen Bilimleri,fotograf ve güncel sanat,,5
-2/26/2016 18:34:51,Jr. Reklam Yazarı,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,1
-2/26/2016 18:35:12,Art Director ,,8,Hayır,Lisans,Hayır,,,-,,,13
+2/26/2016 18:22:27,Reklamcı,"Medya, Iletisim ve Tasarim",4,Evet,Lisans,Hayır,,,Iletisim,,,7
+2/26/2016 18:27:46,Reklamcılık,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Hayır,,,Iletisim,,,1
+2/26/2016 18:29:32,Müzik prodüktörü,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Hayır,,,Egitim,,,21
+2/26/2016 18:31:48,öğrenci,Ogrenci,2,Hayır,Lise,Evet,,,Muhendislik,yok,yok,17
+2/26/2016 18:32:38,Reklamcı,"Medya, Iletisim ve Tasarim",10,Evet,Lisans,Hayır,,,Iletisim,,,1
+2/26/2016 18:33:51,Öğrenci ,Ogrenci,1,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,16
+2/26/2016 18:33:27,reklam,"Medya, Iletisim ve Tasarim",7,Hayır,Lisans,Hayır,,,Fen Bilimleri,fotograf ve güncel sanat,,5
+2/26/2016 18:34:51,Jr. Reklam Yazarı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,1
+2/26/2016 18:35:12,Art Director ,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,-,,,13
 2/26/2016 18:37:08,Müzik öğretmeni - sanat danışmanı- müzisyen,Egitim,1,Evet,Lisans,Hayır,,,Guzel Sanatlar,yok,yok,25
 2/26/2016 18:40:44,dis hekimi,Saglik ve Sosyal Hizmetler,8,Evet,Yüksek lisans,Evet,,,Saglik,dis hekimligi,periodontoloji doktara-uzmanlik,3
 2/26/2016 18:40:48,Yazılımcı,Bilisim Teknolojileri,8,Evet,Lise,Evet,,,Muhendislik,,,1
 2/26/2016 18:40:59,Oyun Geliştirici,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,,Muhendislik,yok,yok,5
-2/26/2016 18:41:41,Stratejist,,8,Hayır,Yüksek lisans,Hayır,,,Iktisat,Karşılaştırmalı Siyaset,yok,5
-2/26/2016 18:41:45,Harita Mühendisi ,Muhendislik,10,Evet,Lisans,Hayır,,,Muhendislik,İstatistik ,,25
-2/26/2016 18:42:21,reklamcılık,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,5
+2/26/2016 18:41:41,Stratejist,Ekonomi,8,Hayır,Yüksek lisans,Hayır,,,Iktisat,Karşılaştırmalı Siyaset,yok,5
+2/26/2016 18:41:45,Harita Mühendisi ,Muhendis,10,Evet,Lisans,Hayır,,,Muhendislik,İstatistik ,,25
+2/26/2016 18:42:21,reklamcılık,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,5
 2/26/2016 18:42:30,freelance software developer,Bilisim Teknolojileri,8,Evet,Lise,Hayır,,,Iletisim,,,1
 2/26/2016 18:44:38,Öğretmen,Egitim,3,Evet,Lisans,Hayır,,,Egitim,Yok,Yok,18
 2/26/2016 18:45:01,Sosyal Medya Uzmanı,Bilisim Teknolojileri,4,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,4
 2/26/2016 18:45:15,Yazılımcı,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,7
 2/26/2016 18:45:21,elektrik mühendisi,Elektrik ve Elektronik,6,Evet,Lisans,Hayır,,,Muhendislik,yok,yok,1
 2/26/2016 18:47:12,Elektronik Teknikeri,Elektrik ve Elektronik,10,Evet,Lisans,Hayır,,,Muhendislik,YOK,YOK,6
-2/26/2016 18:49:47,Araştırma Görevlisi,,4,Evet,Yüksek lisans,Evet,,,Muhendislik,Elektrik-Elektronik Mühendisliği,Kontrol ve Otomasyon,6
+2/26/2016 18:49:47,Araştırma Görevlisi,Bilim,4,Evet,Yüksek lisans,Evet,,,Muhendislik,Elektrik-Elektronik Mühendisliği,Kontrol ve Otomasyon,6
 2/26/2016 18:51:38,Yazılım Geliştirici,Bilisim Teknolojileri,8,Hayır,Lisans,Hayır,,,Muhendislik,,,5
-2/26/2016 18:52:14,Reklamcı,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 18:52:14,Reklamcı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,3
 2/26/2016 18:52:16,Yazılım geliştirme uzmanı / Arayüz tasarımcısı,Bilisim Teknolojileri,8,Hayır,Lisans,Hayır,,,Muhendislik,,,10
-2/26/2016 18:52:32,Sanat yönetmeni reklamcı,"Medya, İletisim ve Yayincilik",10,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,12
+2/26/2016 18:52:32,Sanat yönetmeni reklamcı,"Medya, Iletisim ve Tasarim",10,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,12
 2/26/2016 18:55:18,MİMAR,Mimar,8,Evet,Lise,Evet,,,Mimarlik,YOK,YOK,8
-2/26/2016 18:56:46,öğrenci,,4,Evet,Lise,Evet,,,Muhendislik,,,15
+2/26/2016 18:56:46,öğrenci,Ogrenci,4,Evet,Lise,Evet,,,Muhendislik,,,15
 2/26/2016 18:57:14,Yazılım,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Muhendislik,,,10
-2/26/2016 18:57:17,Sinemacı,Sinema-TV,10,Evet,Lisans,Hayır,,,Iletisim,Yok,Yok,8
+2/26/2016 18:57:17,Sinemacı,"Medya, Iletisim ve Tasarim",10,Evet,Lisans,Hayır,,,Iletisim,Yok,Yok,8
 2/26/2016 18:58:26,Pazarlama Uzman Yardimcisi,Ticaret,8,Hayır,Lisans,Hayır,,,Iletisim,,,2
 2/26/2016 18:58:27,Ogretmen,Egitim,10,Evet,Lisans,Hayır,,,Egitim,,,19
 2/26/2016 18:58:50,Muhasebe,Muhasebe,7,Evet,Lisans,Hayır,,,Iktisat,YOK,YOK,6
-2/26/2016 19:04:07,Memur,,3,Hayır,Yüksek lisans,Hayır,,,Iktisat,Siyaset bilimi,,18
-2/26/2016 19:04:21,Gazeteci,"Medya, İletisim ve Yayincilik",4,Evet,Lisans,Hayır,,,Iletisim,Yok,Yok,6
+2/26/2016 19:04:07,Memur,Temel Meslek,3,Hayır,Yüksek lisans,Hayır,,,Iktisat,Siyaset bilimi,,18
+2/26/2016 19:04:21,Gazeteci,"Medya, Iletisim ve Tasarim",4,Evet,Lisans,Hayır,,,Iletisim,Yok,Yok,6
 2/26/2016 19:04:44,Web tasarım,Bilisim Teknolojileri,9,Hayır,Orta okul,Evet,,,-,Yok,Yok,4
 2/26/2016 19:06:08,Medya danışmanı,Bilisim Teknolojileri,6,Hayır,Yüksek lisans,Hayır,,,Sosyal Bilimler,Aile danışmanlığı ,,1
 2/26/2016 19:10:36,Yazılımcı,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Mühendisliği,,0.9
 2/26/2016 19:12:31,Akademisyen,Akademik,5,Evet,Yüksek lisans,Evet,,,Sosyal Bilimler,1.YL : Sosyal Örgütsel Psikoloji 2.YL: İletişim Stratejileri ve Halkla Iliskiler,,3
 2/26/2016 19:13:46,Moleküler Biyolog ve Genetikçi,Bilim,8,Evet,Lisans,Evet,,,Fen Bilimleri,Moleküler Biyoloji ve Genetik (Kanser İmmünolojisi),yok,1
-2/26/2016 19:17:21,Çevre Mühendisi,Muhendislik,4,Evet,Lisans,Hayır,,,Muhendislik,Yok,Yok,3
+2/26/2016 19:17:21,Çevre Mühendisi,Muhendis,4,Evet,Lisans,Hayır,,,Muhendislik,Yok,Yok,3
 2/26/2016 19:17:49,grafik tasarımcı,Bilisim Teknolojileri,9,Hayır,Lise,Hayır,,,Iktisat,,,7
-2/26/2016 19:17:58,Reklamcı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,2
-2/26/2016 19:21:50,Endüstriyel Tasarım,,10,Evet,Lisans,Evet,,,Mimarlik,,,0
-2/26/2016 19:23:53,Reklam yazarı,"Medya, İletisim ve Yayincilik",5,Hayır,Lisans,Hayır,,,Iktisat,,,9
-2/26/2016 19:26:01,Reklamcılık,"Medya, İletisim ve Yayincilik",4,Evet,Yüksek lisans,Hayır,,,Iletisim,İletişim,,4
-2/26/2016 19:26:08,Dijital Medya,"Medya, İletisim ve Yayincilik",2,Hayır,Lisans,Hayır,,,Muhendislik,,,5
-2/26/2016 19:28:05,ogrenci,,4,Evet,Lisans,Evet,,,Iletisim,,,4
-2/26/2016 19:29:14,reklamcı,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,6
-2/26/2016 19:30:28,Reklamcı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Muhendislik,,,8
+2/26/2016 19:17:58,Reklamcı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,2
+2/26/2016 19:21:50,Endüstriyel Tasarım,"Medya, Iletisim ve Tasarim",10,Evet,Lisans,Evet,,,Mimarlik,,,0
+2/26/2016 19:23:53,Reklam yazarı,"Medya, Iletisim ve Tasarim",5,Hayır,Lisans,Hayır,,,Iktisat,,,9
+2/26/2016 19:26:01,Reklamcılık,"Medya, Iletisim ve Tasarim",4,Evet,Yüksek lisans,Hayır,,,Iletisim,İletişim,,4
+2/26/2016 19:26:08,Dijital Medya,"Medya, Iletisim ve Tasarim",2,Hayır,Lisans,Hayır,,,Muhendislik,,,5
+2/26/2016 19:28:05,ogrenci,Ogrenci,4,Evet,Lisans,Evet,,,Iletisim,,,4
+2/26/2016 19:29:14,reklamcı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,6
+2/26/2016 19:30:28,Reklamcı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Muhendislik,,,8
 2/26/2016 19:32:52,Araştırma Görevlisi ,Akademik,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Mühendisliği ,,1
 2/26/2016 19:32:52,Araştırma Görevlisi ,Akademik,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar Mühendisliği ,,1
-2/26/2016 19:33:48,Reklamcı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,6
+2/26/2016 19:33:48,Reklamcı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,6
 2/26/2016 19:34:03,Sosyal medya uzmanı / editör,Bilisim Teknolojileri,3,Hayır,Lisans,Hayır,,,Diger,Fotoğrafçılıl,Yok,3
 2/26/2016 19:35:22,SEO,Bilisim Teknolojileri,9,Hayır,Lise,Evet,,,Iletisim,,,1
 2/26/2016 19:36:43,Microsoft Cloud Specialist ,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Iktisat,,,1
-2/26/2016 19:37:04,Endüstri ürünleri tasarımcısı,,3,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,6
+2/26/2016 19:37:04,Endüstri ürünleri tasarımcısı,"Medya, Iletisim ve Tasarim",3,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,6
 2/26/2016 19:38:42,Sosyal Medya Yöneticisi,Bilisim Teknolojileri,9,Hayır,Lisans,Hayır,,,Iletisim,,,5
 2/26/2016 19:39:22,dijital pazarlama,Ticaret,4,Hayır,Lisans,Hayır,,,Muhendislik,,,5
 2/26/2016 19:40:07,Bilgisayar Muhendisi,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,11
 2/26/2016 19:41:49,Fotoğrafçı,"Kultur, Sanat ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,6
-2/26/2016 19:45:12,Turizm,,4,Evet,Lisans,Hayır,,,Iktisat,,,3
+2/26/2016 19:45:12,Turizm,Turizm,4,Evet,Lisans,Hayır,,,Iktisat,,,3
 2/26/2016 19:45:42,makyöz,"Kultur, Sanat ve Tasarim",10,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,6
-2/26/2016 19:49:41,doktor,Saglik,8,Evet,Lisans,Hayır,,,Saglik,,,3
+2/26/2016 19:49:41,doktor,Saglik ve Sosyal Hizmetler,8,Evet,Lisans,Hayır,,,Saglik,,,3
 2/26/2016 19:53:26,Öğretmen,Egitim,4,Evet,Lisans,Hayır,,,Egitim,,,21
-2/26/2016 19:56:30,Reklam Yazarı,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 19:56:30,Reklam Yazarı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,3
 2/26/2016 19:57:21,Web Tasarımcı,Bilisim Teknolojileri,10,Hayır,Yüksek lisans,Hayır,,,Sosyal Bilimler,Pazarlama İletişimi,yok,2
-2/26/2016 19:59:56,3B Yazıcı tasarım/üretim/satış,,10,Evet,Yüksek lisans,Hayır,,,Mimarlik,Stratejik Tasarım,Yok,8
+2/26/2016 19:59:56,3B Yazıcı tasarım/üretim/satış,Is ve Yonetim,10,Evet,Yüksek lisans,Hayır,,,Mimarlik,Stratejik Tasarım,Yok,8
 2/26/2016 20:02:30,Danışmanlık,,4,Hayır,Lisans,Hayır,,,Muhendislik,,,3
 2/26/2016 20:04:24,Sosyal bilgiler ögretmeni,Egitim,6,Evet,Lisans,Evet,,,Iktisat,Yok,Yok,0
-2/26/2016 20:04:46,Sosyolog,,8,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,,,1
-2/26/2016 20:05:18,Makine Mühendisi,Muhendislik,7,Evet,Lise,Evet,,,Muhendislik,,,0
-2/26/2016 20:05:21,İllustrator,,8,Evet,Lisans,Hayır,,,Iletisim,,,2
+2/26/2016 20:04:46,Sosyolog,"Medya, Iletisim ve Tasarim",8,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,,,1
+2/26/2016 20:05:18,Makine Mühendisi,Muhendis,7,Evet,Lise,Evet,,,Muhendislik,,,0
+2/26/2016 20:05:21,İllustrator,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,2
 2/26/2016 20:05:46,Öğretmen ,Egitim,3,Evet,Lisans,Hayır,,,Egitim,,,17
 2/26/2016 20:07:27,teknik proje yöneticisi,Bilisim Teknolojileri,10,Evet,Yüksek lisans,Hayır,,,Muhendislik,Yazılım mühendisliği,,7
-2/26/2016 20:07:53,Gazeteci,"Medya, İletisim ve Yayincilik",4,Evet,Lisans,Hayır,,,Iletisim,,,2
+2/26/2016 20:07:53,Gazeteci,"Medya, Iletisim ve Tasarim",4,Evet,Lisans,Hayır,,,Iletisim,,,2
 2/26/2016 20:09:24,Dijital proje yöneticisi,Bilisim Teknolojileri,5,Hayır,Lisans,Hayır,,,Iktisat,,,3 sene
-2/26/2016 20:09:38,Basın Mensubu,"Medya, İletisim ve Yayincilik",5,Evet,Lisans,Hayır,,,Iletisim,N/A,N/A,20
-2/26/2016 20:10:31,Organizasyon,,7,Hayır,Lisans,Hayır,,,Iletisim,,,1
-2/26/2016 20:21:25,Dijital Reklam Satış,"Medya, İletisim ve Yayincilik",10,Hayır,Lisans,Hayır,,,Iktisat,,,8
-2/26/2016 20:24:46,Reklam yazarı,"Medya, İletisim ve Yayincilik",3,Evet,Lisans,Hayır,,,Iletisim,,,2
-2/26/2016 20:31:29,Kurumsal iletişim sorumlusu,"Medya, İletisim ve Yayincilik",3,Evet,Lisans,Hayır,,,Iletisim,,,3
-2/26/2016 20:34:50,senaryo yazarı,"Medya, İletisim ve Yayincilik",3,Hayır,Lisans,Hayır,,,Mimarlik,,,12
+2/26/2016 20:09:38,Basın Mensubu,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Hayır,,,Iletisim,N/A,N/A,20
+2/26/2016 20:10:31,Organizasyon,Is ve Yonetim,7,Hayır,Lisans,Hayır,,,Iletisim,,,1
+2/26/2016 20:21:25,Dijital Reklam Satış,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Hayır,,,Iktisat,,,8
+2/26/2016 20:24:46,Reklam yazarı,"Medya, Iletisim ve Tasarim",3,Evet,Lisans,Hayır,,,Iletisim,,,2
+2/26/2016 20:31:29,Kurumsal iletişim sorumlusu,"Medya, Iletisim ve Tasarim",3,Evet,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 20:34:50,senaryo yazarı,"Medya, Iletisim ve Tasarim",3,Hayır,Lisans,Hayır,,,Mimarlik,,,12
 2/26/2016 20:35:06,Sosyal medya ekip lideri,Bilisim Teknolojileri,8,Hayır,Lisans,Hayır,,,Egitim,,,4
-2/26/2016 20:35:30,İnşaat  muhendisligi ,Muhendislik,7,Evet,Lisans,Evet,,,Muhendislik,,,2
+2/26/2016 20:35:30,İnşaat  muhendisligi ,Muhendis,7,Evet,Lisans,Evet,,,Muhendislik,,,2
 2/26/2016 20:38:14,Müzisyen,"Kultur, Sanat ve Tasarim",4,Evet,Yüksek lisans,Evet,,,Guzel Sanatlar,Keman,Keman,10
 2/26/2016 20:39:09,Grafiker,Bilisim Teknolojileri,3,Evet,Lisans,Hayır,,Matbaa Ogretmenligi,Egitim, Yok,Yok,3
 2/26/2016 20:40:56,Bilgisayar Mühendisi,Bilisim Teknolojileri,10,Evet,Yüksek lisans,Evet,,Bilgisayar Mühendisliği,Muhendislik,Bilgisayar Mühendisliği,,7
-2/26/2016 20:41:10,Öğrenci,,1,Hayır,Lise,Evet,,-,-,,,11
+2/26/2016 20:41:10,Öğrenci,Ogrenci,1,Hayır,Lise,Evet,,-,-,,,11
 2/26/2016 20:41:47,Öğretmen ,Egitim,9,Evet,Lisans,Hayır,,-,Egitim,,,2
 2/26/2016 20:42:40,Öğretmen,Egitim,2,Evet,Lisans,Hayır,,-,Egitim,Yok,Yok,25
-2/26/2016 20:44:29,Reklamcı,"Medya, İletisim ve Yayincilik",10,Hayır,Lisans,Evet,,Elektrik ve Elektornik Muhendisligi,Muhendislik,Medya iletişim,,12
+2/26/2016 20:44:29,Reklamcı,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Evet,,Elektrik ve Elektornik Muhendisligi,Muhendislik,Medya iletişim,,12
 2/26/2016 20:46:25,Öğretmen,Egitim,4,Evet,Lisans,Hayır,,Fizik,Fen Bilimleri,,,25
 2/26/2016 20:47:15,Fotoğrafçı,"Kultur, Sanat ve Tasarim",7,Hayır,Lisans,Hayır,,Iletisim,Iletisim,yok,yok,5
-2/26/2016 20:48:52,Reklamcı,"Medya, İletisim ve Yayincilik",3,Hayır,Lisans,Evet,,Astronomi ve Uzay Bilimleri,Fen Bilimleri,Mühendislik Yönetimi,,8
+2/26/2016 20:48:52,Reklamcı,"Medya, Iletisim ve Tasarim",3,Hayır,Lisans,Evet,,Astronomi ve Uzay Bilimleri,Fen Bilimleri,Mühendislik Yönetimi,,8
 2/26/2016 20:53:02,Akademisyen,Akademik,10,Evet,Doktora,Evet,,Moleküler Biyoloji ve Genetik,Fen Bilimleri,Tıbbi Genetik,Tıbbi Genetik,9
 2/26/2016 20:53:39,Vitrin Tasarımı ve Görsel Düzenleme,"Kultur, Sanat ve Tasarim",2,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,2
 2/26/2016 20:55:33,Biyoinformatik Uzmanı,Bilim,10,Evet,Yüksek lisans,Evet,,Moleküler Biyoloji ve Genetik,Fen Bilimleri,Moleküler biyoloji ve genetik ,Tıp Bilişimi,9
@@ -385,63 +385,63 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 21:02:59,Grafik Tasarım,Bilisim Teknolojileri,9,Hayır,Yüksek lisans,Hayır,,Ekonomi,Iktisat,SANAT TARİHİ,,5
 2/26/2016 21:09:20,Akademisyem,Akademik,9,Evet,Doktora,Evet,,Mimarlik,Guzel Sanatlar,Peyzaj mimarlığı,Peyzaj mimarlığı,9
 2/26/2016 21:09:53,Software Developer,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,Matematik,Fen Bilimleri,,,5
-2/26/2016 21:10:06,Girişimci,,10,Evet,Lisans,Hayır,,Endüstri Mühendisliği ,Muhendislik,,,3
+2/26/2016 21:10:06,Girişimci,Is ve Yonetim,10,Evet,Lisans,Hayır,,Endüstri Mühendisliği ,Muhendislik,,,3
 2/26/2016 21:10:48,Muhasebe,Muhasebe,3,Evet,Lisans,Hayır,,Iktisat,Iktisat,,,3
 2/26/2016 21:10:58,Muhasebe,Muhasebe,3,Evet,Lisans,Hayır,,Iktisat,Iktisat,,,3
 2/26/2016 21:12:07,Grafik tasarım ,Bilisim Teknolojileri,4,Hayır,Lise,Hayır,,Deri Muhendisligi,Muhendislik,,,10
-2/26/2016 21:16:28,müşteri temsilcisi,,6,Evet,Lisans,Hayır,,Halkla ilişkiler ve Tanıtım,Iletisim,,,4 ay
+2/26/2016 21:16:28,müşteri temsilcisi,Temel Meslek,6,Evet,Lisans,Hayır,,Halkla ilişkiler ve Tanıtım,Iletisim,,,4 ay
 2/26/2016 21:17:27,Beden Eğitimi Öğretmeni,Egitim,5,Evet,Lisans,Hayır,,BESYO,BESYO,,,12
 2/26/2016 21:23:27,Sanat Yönetmeni,"Kultur, Sanat ve Tasarim",10,Hayır,Lisans,Hayır,,Turizm,Iktisat,,,10
-2/26/2016 21:28:24,Reklam,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,Bilgi ve Belge Yönetimi,Sosyal Bilimler,,,7
+2/26/2016 21:28:24,Reklam,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,Bilgi ve Belge Yönetimi,Sosyal Bilimler,,,7
 2/26/2016 21:28:43,Hekim ,Saglik ve Sosyal Hizmetler,3,Evet,Lisans,Hayır,,Tip,Saglik,,,4
 2/26/2016 21:29:21,Yazilim uzmani,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,12
 2/26/2016 21:29:23,Tiyatro,"Kultur, Sanat ve Tasarim",3,Hayır,Lisans,Hayır,,Kamu Yonetimi,Siyasal Bilimler,Yok,Yok,8
-2/26/2016 21:29:25,Aşçı,,8,Evet,Lisans,Hayır,,Sosyoloji,Sosyal Bilimler,,,5
+2/26/2016 21:29:25,Aşçı,Temel Meslek,8,Evet,Lisans,Hayır,,Sosyoloji,Sosyal Bilimler,,,5
 2/26/2016 21:30:54,İngilizce ogretmeni,Egitim,8,Evet,Yüksek lisans,Hayır,,Ogretmenlik,Egitim,İsletme,,18
 2/26/2016 21:32:06,Mimar,Mimar,7,Evet,Yüksek lisans,Hayır,,Mimarlik,Mimarlik,Proje ve Yapım Yönetimi,,8
 2/26/2016 21:35:56,Diş hekimi,Saglik ve Sosyal Hizmetler,5,Evet,Doktora,Hayır,,,Saglik,,Restoratif diş tedavisi bölümü,7
-2/26/2016 21:36:54,dernek başkanı,,6,Evet,Lise,Evet,,,Guzel Sanatlar,,,2
+2/26/2016 21:36:54,dernek başkanı,Is ve Yonetim,6,Evet,Lise,Evet,,,Guzel Sanatlar,,,2
 2/26/2016 21:39:45,Dijital pazarlama uzmanı,Ticaret,9,Hayır,Yüksek lisans,Hayır,,,Iktisat,Executive MBA,,4
-2/26/2016 21:40:09,Mühendis,Muhendislik,7,Evet,Yüksek lisans,Evet,,,Muhendislik,Metalurji ve malzeme mühendisliği,Metalurji ve malzeme mühendisliği,2
+2/26/2016 21:40:09,Mühendis,Muhendis,7,Evet,Yüksek lisans,Evet,,,Muhendislik,Metalurji ve malzeme mühendisliği,Metalurji ve malzeme mühendisliği,2
 2/26/2016 21:41:10,Web yazılım,Bilisim Teknolojileri,4,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,8
 2/26/2016 21:43:30,Biyoloji Öğretmeni,Egitim,10,Evet,Yüksek lisans,Hayır,,,Egitim,Çevre Bilimleri,,4
-2/26/2016 21:43:39,işçi,,8,Evet,Lisans,Evet,,,Muhendislik,yok,yok ulan yok,"0,1"
+2/26/2016 21:43:39,işçi,Temel Meslek,8,Evet,Lisans,Evet,,,Muhendislik,yok,yok ulan yok,"0,1"
 2/26/2016 21:45:19,Satış danışmanı,Ticaret,1,Hayır,Lisans,Evet,,,Iktisat,,,6 ay
-2/26/2016 21:45:21,Insaat Muhendisi,Muhendislik,7,Evet,Lisans,Hayır,,,Muhendislik,,,8
-2/26/2016 21:46:29,İşletmeci,,7,Hayır,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,9
+2/26/2016 21:45:21,Insaat Muhendisi,Muhendis,7,Evet,Lisans,Hayır,,,Muhendislik,,,8
+2/26/2016 21:46:29,İşletmeci,Is ve Yonetim,7,Hayır,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,9
 2/26/2016 21:46:57,Bilgisayar Mühendisliği,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,"4,5"
-2/26/2016 21:48:50,Sigortacı,,6,Hayır,Lisans,Hayır,,,Guzel Sanatlar,,,1
-2/26/2016 21:49:45,Dijital Iletisim Danismani,"Medya, İletisim ve Yayincilik",10,Hayır,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,6
+2/26/2016 21:48:50,Sigortacı,Sigorta,6,Hayır,Lisans,Hayır,,,Guzel Sanatlar,,,1
+2/26/2016 21:49:45,Dijital Iletisim Danismani,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,6
 2/26/2016 21:53:51,Bilgisayar mühendisliği,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,,Muhendislik,,,7
 2/26/2016 21:53:57,Diş hekimi,Saglik ve Sosyal Hizmetler,4,Evet,Yüksek lisans,Hayır,,,Saglik,,,1
-2/26/2016 21:54:30,Biyomühendis,Bilim ve Muhendislik,9,Evet,Lise,Evet,,,Muhendislik,,,0
+2/26/2016 21:54:30,Biyomühendis,Muhendis,9,Evet,Lise,Evet,,,Muhendislik,,,0
 2/26/2016 21:56:28,Sistem Destek Uzmanı,Bilisim Teknolojileri,7,Hayır,Lisans,Hayır,,,Iktisat,,,2
-2/26/2016 21:57:58,Flying Chef,,10,Evet,Lisans,Hayır,,,Iktisat,,,1
-2/26/2016 22:00:04,Sosyal Medya Uzmanı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Evet,,,Iletisim,,,5
-2/26/2016 22:03:58,Endustriyel tasarim,,5,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,5
+2/26/2016 21:57:58,Flying Chef,Temel Meslek,10,Evet,Lisans,Hayır,,,Iktisat,,,1
+2/26/2016 22:00:04,Sosyal Medya Uzmanı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Evet,,,Iletisim,,,5
+2/26/2016 22:03:58,Endustriyel tasarim,"Medya, Iletisim ve Tasarim",5,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,5
 2/26/2016 22:04:22,Öğretmen,Egitim,7,Evet,Lisans,Hayır,,,Egitim,,,22
-2/26/2016 22:05:32,Reklamcı,"Medya, İletisim ve Yayincilik",1,Evet,Lisans,Hayır,,,Iletisim,Halkla ilişkiler ve tanıtım,Yok,5
-2/26/2016 22:06:00,Fizyoterapist,Saglik,8,Evet,Lisans,Hayır,,,Saglik,,,"1,5"
+2/26/2016 22:05:32,Reklamcı,"Medya, Iletisim ve Tasarim",1,Evet,Lisans,Hayır,,,Iletisim,Halkla ilişkiler ve tanıtım,Yok,5
+2/26/2016 22:06:00,Fizyoterapist,Saglik ve Sosyal Hizmetler,8,Evet,Lisans,Hayır,,,Saglik,,,"1,5"
 2/26/2016 22:06:50,Front End Developer,Bilisim Teknolojileri,8,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,4
-2/26/2016 22:07:37,copywriter,"Medya, İletisim ve Yayincilik",4,Evet,Lisans,Hayır,,,Iletisim,,,1
+2/26/2016 22:07:37,copywriter,"Medya, Iletisim ve Tasarim",4,Evet,Lisans,Hayır,,,Iletisim,,,1
 2/26/2016 22:08:14,iOS Developer,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,,Fen Bilimleri,,,0.7
 2/26/2016 22:08:43,y.mimar ,Mimar,8,Evet,Yüksek lisans,Hayır,,,Mimarlik,mimarlik,,15
 2/26/2016 22:08:54,y.mimar ,Mimar,8,Evet,Yüksek lisans,Hayır,,,Mimarlik,mimarlik,,15
-2/26/2016 22:08:55,öğrenci ,,1,Evet,Lisans,Evet,,,Egitim,,,15
-2/26/2016 22:10:12,Makine Mühendisi,Bilim ve Muhendislik,10,Evet,Lisans,Hayır,,,Muhendislik,,,16
+2/26/2016 22:08:55,öğrenci ,Ogrenci,1,Evet,Lisans,Evet,,,Egitim,,,15
+2/26/2016 22:10:12,Makine Mühendisi,Muhendis,10,Evet,Lisans,Hayır,,,Muhendislik,,,16
 2/26/2016 22:11:26,Diş hekimliği ,Saglik ve Sosyal Hizmetler,5,Evet,Lisans,Hayır,,,Saglik,,,3
-2/26/2016 22:11:48,Sosyal medya uzmanı,"Medya, İletisim ve Yayincilik",1,Evet,Lisans,Evet,,,Iletisim,,,3
+2/26/2016 22:11:48,Sosyal medya uzmanı,"Medya, Iletisim ve Tasarim",1,Evet,Lisans,Evet,,,Iletisim,,,3
 2/26/2016 22:13:00,Ögretmen,Egitim,7,Evet,Lisans,Hayır,,,Egitim,,,25
 2/26/2016 22:17:53,öğretim üyesi,Egitim,7,Evet,Doktora,Hayır,,,Fen Bilimleri,biyoloji,moleküler biyoloji ve genetik,5
 2/26/2016 22:20:26,Biyolog,Bilim,5,Evet,Doktora,Hayır,,,Fen Bilimleri,Moleküler Biyoloji ve Genetik,Moleküler Biyoloji ve Genetik,10
 2/26/2016 22:20:49,SATIŞ PAZARLAMA,Ticaret,3,Hayır,Lisans,Hayır,,,Muhendislik,,,4
 2/26/2016 22:25:48,Avukat,Adalet ve Guvenlik,10,Evet,Yüksek lisans,Evet,,,Hukuk,Bilişim ve Teknoloji Hukuku,Özel hukuk,6
-2/26/2016 22:29:52,reklamcı,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Iletisim,,,2
+2/26/2016 22:29:52,reklamcı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,2
 2/26/2016 22:31:31,Akademik uzman,Akademik,4,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,Tarih,,8
-2/26/2016 22:39:15,Sözlü tarihçi,,9,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,8
+2/26/2016 22:39:15,Sözlü tarihçi,"Medya, Iletisim ve Tasarim",9,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,8
 2/26/2016 22:40:53,Bilgisayar programcısı ,Bilisim Teknolojileri,3,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,23
 2/26/2016 22:43:34,fotoğrafçı ,"Kultur, Sanat ve Tasarim",3,Evet,Lisans,Evet,,,Guzel Sanatlar,işletme yönetimi ,,8
-2/26/2016 22:43:45,Reklamci,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,5
+2/26/2016 22:43:45,Reklamci,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,5
 2/26/2016 22:44:44,mimar,Mimar,7,Evet,Yüksek lisans,Hayır,,,Mimarlik,,,2
 2/26/2016 22:47:18,Öğretmen ,Egitim,1,Evet,Lisans,Hayır,,,Egitim,,,20
 2/26/2016 22:47:57,Yazılım,Bilisim Teknolojileri,4,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,13
@@ -452,138 +452,138 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 2/26/2016 22:55:39,Psikolojik Danışman/Araştırma Görevlisi,Akademik,10,Evet,Lisans,Evet,,,Sosyal Bilimler,Psikolojik danışma ve rehberlik ,,1 yıl
 2/26/2016 22:59:01,diş hekimi,Saglik ve Sosyal Hizmetler,7,Evet,Lise,Evet,,,Saglik,,,1
 2/26/2016 23:00:15,Girişimci ,Is ve Yonetim,10,Hayır,Lisans,Hayır,,,Iktisat,,,2
-2/26/2016 23:01:59,reklamcı,"Medya, İletisim ve Yayincilik",7,Hayır,Yüksek lisans,Hayır,,,Sosyal Bilimler,modern türkiye tarihi,,4
+2/26/2016 23:01:59,reklamcı,"Medya, Iletisim ve Tasarim",7,Hayır,Yüksek lisans,Hayır,,,Sosyal Bilimler,modern türkiye tarihi,,4
 2/26/2016 23:04:48,Tavuk çiftliği,Is ve Yonetim,7,Hayır,Lisans,Hayır,,,Diger,,,2
-2/26/2016 23:07:14,İnşaat Mühendisi,Muhendislik,7,Evet,Yüksek lisans,Hayır,,,Muhendislik,Yapı Mühendisliği,,8
-2/26/2016 23:07:55,Kamera operatoru,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Iletisim,,,3
-2/26/2016 23:12:40,Muhendis,Muhendislik,6,Evet,Yüksek lisans,Evet,,,Muhendislik,Makine Muhendisligi,Uygulamali fizik,5
+2/26/2016 23:07:14,İnşaat Mühendisi,Muhendis,7,Evet,Yüksek lisans,Hayır,,,Muhendislik,Yapı Mühendisliği,,8
+2/26/2016 23:07:55,Kamera operatoru,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Iletisim,,,3
+2/26/2016 23:12:40,Muhendis,Muhendis,6,Evet,Yüksek lisans,Evet,,,Muhendislik,Makine Muhendisligi,Uygulamali fizik,5
 2/26/2016 23:14:53,Öğretmen,Egitim,8,Evet,Lisans,Hayır,,,Egitim,,,2
-2/26/2016 23:16:03,Iletisim danismani,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,5 yil 4 ay 
+2/26/2016 23:16:03,Iletisim danismani,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,5 yil 4 ay 
 2/26/2016 23:24:02,Webmaster,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,17
 2/26/2016 23:27:57,Ogretmen,Egitim,10,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,30
-2/26/2016 23:29:26,Ogrenci,,3,Evet,Lise,Evet,,,Saglik,,,15
+2/26/2016 23:29:26,Ogrenci,Ogrenci,3,Evet,Lise,Evet,,,Saglik,,,15
 2/26/2016 23:36:05,Ortodonti uzmani,Saglik ve Sosyal Hizmetler,5,Evet,Doktora,Hayır,,,Saglik,,Ortodonti,6
 2/26/2016 23:40:18,Fahişelik,,9,Hayır,Doktora,Evet,,,Diger,,,69
-2/26/2016 23:41:14,Jeofizik mühendisi ,Muhendislik,8,Evet,Lisans,Evet,,,Muhendislik,Jeofizik mühendisi ,,3
+2/26/2016 23:41:14,Jeofizik mühendisi ,Muhendis,8,Evet,Lisans,Evet,,,Muhendislik,Jeofizik mühendisi ,,3
 2/26/2016 23:42:14,Bilgisayar Muh.,Bilisim Teknolojileri,10,Evet,Yüksek lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,MBA,,10
 2/26/2016 23:54:54,Mağaza müdürü,Is ve Yonetim,5,Hayır,Lisans,Hayır,,,Guzel Sanatlar,,,3
 2/26/2016 23:57:28,Project Manager,Is ve Yonetim,9,Evet,Lisans,Hayır,,,Iktisat,,,6
 2/26/2016 23:57:30,Dövme sanatçısı,"Kultur, Sanat ve Tasarim",10,Hayır,Lisans,Hayır,,,Iktisat,,,3
-2/27/2016 0:00:10,Harita kadastro teknikeri,,8,Evet,Lisans,Hayır,,,Muhendislik,,,14
+2/27/2016 0:00:10,Harita kadastro teknikeri,Muhendis,8,Evet,Lisans,Hayır,,,Muhendislik,,,14
 2/27/2016 0:05:41,Avukat,Adalet ve Guvenlik,4,Evet,Lisans,Evet,,,Hukuk,Hukuk,,4
 2/27/2016 0:10:22,Müdür,Is ve Yonetim,9,Hayır,Lisans,Evet,,,Muhendislik,İnşaat müh,,3
 2/27/2016 0:15:40,Diş hekimliği,Saglik ve Sosyal Hizmetler,4,Evet,Yüksek lisans,Evet,,,Saglik,,,3
 2/27/2016 0:35:02,Dijital Pazarlama ,Ticaret,4,Evet,Lisans,Hayır,,,Isletme,,,4
 2/27/2016 0:35:14,Hekim,Saglik ve Sosyal Hizmetler,9,Evet,Lisans,Evet,,,Saglik,Nöroloji ihtisası,,4
 2/27/2016 0:39:30,diş hekimi,Saglik ve Sosyal Hizmetler,7,Evet,Lise,Evet,,,Saglik,,,2
-2/27/2016 0:46:40,Kurumsal İletişim Uzmanı,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Muhendislik,,,3
+2/27/2016 0:46:40,Kurumsal İletişim Uzmanı,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Muhendislik,,,3
 2/27/2016 0:53:33,Ui designer,Bilisim Teknolojileri,4,Hayır,Yüksek lisans,Hayır,,,Iletisim,Halkla ilişkiler,,"1,5"
 2/27/2016 1:00:28,Girişimci,Is ve Yonetim,5,Hayır,Lise,Evet,,,Muhendislik,,,4
 2/27/2016 1:02:09,Sanat Yönetmeni,"Kultur, Sanat ve Tasarim",8,Evet,Lisans,Hayır,,,Iletisim,,,9
 2/27/2016 1:02:16,Diş Hekimi,Saglik ve Sosyal Hizmetler,7,Evet,Yüksek lisans,Hayır,,,Saglik,Diş Hekimliği ,,3
-2/27/2016 1:03:56,reklamci,"Medya, İletisim ve Yayincilik",3,Hayır,Lisans,Hayır,,,Iktisat,,,5
-2/27/2016 1:17:12,Makina Mühendisi,Muhendislik,4,Evet,Lisans,Hayır,,,Muhendislik,,,15
-2/27/2016 1:20:13,öğrenci,,3,Evet,Yüksek lisans,Evet,,,Muhendislik,,,15
+2/27/2016 1:03:56,reklamci,"Medya, Iletisim ve Tasarim",3,Hayır,Lisans,Hayır,,,Iktisat,,,5
+2/27/2016 1:17:12,Makina Mühendisi,Muhendis,4,Evet,Lisans,Hayır,,,Muhendislik,,,15
+2/27/2016 1:20:13,öğrenci,Ogrenci,3,Evet,Yüksek lisans,Evet,,,Muhendislik,,,15
 2/27/2016 1:23:52,öğretim üyesi,Akademik,8,Evet,Doktora,Hayır,,,Guzel Sanatlar,heykel,heykel,16
 2/27/2016 1:26:28,Social media consultant,Bilisim Teknolojileri,9,Hayır,Lise,Evet,,,Iktisat,,,1
-2/27/2016 1:30:56,Reklamcı,"Medya, İletisim ve Yayincilik",10,Hayır,Yüksek lisans,Hayır,,,Diger,,,12
-2/27/2016 1:47:06,reklamci,"Medya, İletisim ve Yayincilik",5,Evet,Lisans,Evet,,,Iktisat,,,4
-2/27/2016 2:08:45,Editör,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,11
-2/27/2016 2:24:10,Sosyal Medyaci,"Medya, İletisim ve Yayincilik",5,Evet,Lisans,Hayır,,,Isletme,,,4
+2/27/2016 1:30:56,Reklamcı,"Medya, Iletisim ve Tasarim",10,Hayır,Yüksek lisans,Hayır,,,Diger,,,12
+2/27/2016 1:47:06,reklamci,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Evet,,,Iktisat,,,4
+2/27/2016 2:08:45,Editör,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,11
+2/27/2016 2:24:10,Sosyal Medyaci,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Hayır,,,Isletme,,,4
 2/27/2016 2:25:45,Grafik Tasarımcı,Bilisim Teknolojileri,3,Evet,Lisans,Evet,,,Guzel Sanatlar,,,8
 2/27/2016 2:45:50,developer ,Bilisim Teknolojileri,5,Hayır,Lise,Hayır,,,Diger,,,11
 2/27/2016 4:04:08,Full Stack Developer / Amele ,Bilisim Teknolojileri,3,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,2
-2/27/2016 4:19:50,Yönetmen,Sinema-TV,9,Hayır,Lisans,Evet,,,Muhendislik,,,3
+2/27/2016 4:19:50,Yönetmen,"Medya, Iletisim ve Tasarim",9,Hayır,Lisans,Evet,,,Muhendislik,,,3
 2/27/2016 6:40:12,Bilisayar mühendisi,Bilisim Teknolojileri,6,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,5
 2/27/2016 7:04:26,mimar,Mimar,10,Evet,Yüksek lisans,Hayır,,,Mimarlik,yıldız teknik mimarlık,,13
-2/27/2016 7:24:12,uçak yüksek mühendisi,Bilim ve Muhendislik,8,Evet,Yüksek lisans,Hayır,,,Muhendislik,uçak ve uzay mühendisliği,,7
-2/27/2016 7:34:12,Sinema filmlerinde yapim koordinatoru,"Medya, İletisim ve Yayincilik",3,Evet,Yüksek lisans,Hayır,,,Iletisim,Sanat tarihi,,13
+2/27/2016 7:24:12,uçak yüksek mühendisi,Muhendis,8,Evet,Yüksek lisans,Hayır,,,Muhendislik,uçak ve uzay mühendisliği,,7
+2/27/2016 7:34:12,Sinema filmlerinde yapim koordinatoru,"Medya, Iletisim ve Tasarim",3,Evet,Yüksek lisans,Hayır,,,Iletisim,Sanat tarihi,,13
 2/27/2016 7:50:10,Veteriner Hekim ,Saglik ve Sosyal Hizmetler,5,Evet,Yüksek lisans,Evet,,,Saglik,Veteriner ,Vetetiner,2
-2/27/2016 8:14:52,Görsel Efekt Sanatçısı,Sinema-TV,7,Evet,Lisans,Hayır,,,Iletisim,,,10
+2/27/2016 8:14:52,Görsel Efekt Sanatçısı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,10
 2/27/2016 8:21:10,Dijital pazarlama,Ticaret,7,Hayır,Lisans,Hayır,,,Muhendislik,,,5
 2/27/2016 8:37:08,İthalat ve lojistik uzmanı,"Ulastirma, Lojistik ve Haberlesme",8,Hayır,Yüksek lisans,Hayır,,,Diger,Yok,Yok,6
-2/27/2016 8:50:10,Memur,,3,Hayır,Yüksek lisans,Evet,,,Fen Bilimleri,Koç hesaplamalı bilimler,Odtü sağlık bilisimi,4
+2/27/2016 8:50:10,Memur,Temel Meslek,3,Hayır,Yüksek lisans,Evet,,,Fen Bilimleri,Koç hesaplamalı bilimler,Odtü sağlık bilisimi,4
 2/27/2016 9:29:56,Bilgisayar Mühendisi,Bilisim Teknolojileri,7,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,-,-,2
-2/27/2016 9:40:27,Reklam Yazarı,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Iletisim,,,2
+2/27/2016 9:40:27,Reklam Yazarı,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Iletisim,,,2
 2/27/2016 9:45:28,Yoga egitmenligi,Egitim,10,Hayır,Lisans,Evet,,,Diger,Antropoloji Y.L.,,2
-2/27/2016 9:47:05,Reklamcı,"Medya, İletisim ve Yayincilik",9,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,8
+2/27/2016 9:47:05,Reklamcı,"Medya, Iletisim ve Tasarim",9,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,8
 2/27/2016 9:47:48,Intern Frontend Developer,Bilisim Teknolojileri,7,Hayır,Lise,Evet,,,Muhendislik,,,3 Hafta
-2/27/2016 10:02:19,Sanat yönetmeni,"Medya, İletisim ve Yayincilik",3,Evet,Lisans,Hayır,,,Iletisim,Yok,Yok,4
+2/27/2016 10:02:19,Sanat yönetmeni,"Medya, Iletisim ve Tasarim",3,Evet,Lisans,Hayır,,,Iletisim,Yok,Yok,4
 2/27/2016 10:12:46,Bilgisayar Mühendisi,Bilisim Teknolojileri,9,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,2
 2/27/2016 10:43:10,İş analisti ,Is ve Yonetim,8,Evet,Yüksek lisans,Hayır,,,Isletme,Yönetim bilişim sistemleri ,,4
-2/27/2016 11:04:49,ev hanımı ,,4,Hayır,Ön Lisans,Hayır,,,Isletme,buro yönetimi ,,6
-2/27/2016 11:10:43,editörlük,"Medya, İletisim ve Yayincilik",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,medya ve iletişim yüksek lisans terk :),,10
+2/27/2016 11:04:49,ev hanımı ,Temel Meslek,4,Hayır,Ön Lisans,Hayır,,,Isletme,buro yönetimi ,,6
+2/27/2016 11:10:43,editörlük,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Sosyal Bilimler,medya ve iletişim yüksek lisans terk :),,10
 2/27/2016 11:13:26,Öğretmen,Egitim,5,Evet,Yüksek lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,Eğitim yönetimi ve denetimi ,,13
 2/27/2016 11:15:48,Developer,Bilisim Teknolojileri,9,Hayır,Lise,Evet,,,Fen Bilimleri,,,2
 2/27/2016 11:25:14,Telekom alaninda Yoneticilik,Is ve Yonetim,8,Hayır,Lisans,Hayır,,,Iktisat,,,2
-2/27/2016 11:36:34,Hareketli Grafik Tasarımcı,,8,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,3
+2/27/2016 11:36:34,Hareketli Grafik Tasarımcı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,3
 2/27/2016 11:37:25,Hemşire,Saglik ve Sosyal Hizmetler,8,Evet,Lisans,Hayır,,,Saglik,,,14
-2/27/2016 11:44:06,Bankacı,,10,Evet,Lisans,Hayır,,,Iktisat,,,23
-2/27/2016 11:52:20,Reklam,"Medya, İletisim ve Yayincilik",7,Evet,Ön Lisans,Hayır,,,Iletisim,,,4
+2/27/2016 11:44:06,Bankacı,Ekonomi,10,Evet,Lisans,Hayır,,,Iktisat,,,23
+2/27/2016 11:52:20,Reklam,"Medya, Iletisim ve Tasarim",7,Evet,Ön Lisans,Hayır,,,Iletisim,,,4
 2/27/2016 12:10:01,Sosyal Çalışmacı,Saglik ve Sosyal Hizmetler,7,Evet,Lisans,Hayır,,,Saglik,,,1
 2/27/2016 12:12:08,Avukat,Adalet ve Guvenlik,9,Evet,Lisans,Evet,,,Hukuk,Ekonomi Finans,,4
 2/27/2016 12:25:46,Mimar,Mimar,7,Evet,Lisans,Hayır,,,Mimarlik,,,10
-2/27/2016 12:29:28,Reklamcılık,"Medya, İletisim ve Yayincilik",6,Evet,Lisans,Hayır,,,Iletisim,,,8
-2/27/2016 12:42:13,Reklamcılık,"Medya, İletisim ve Yayincilik",6,Evet,Lisans,Hayır,,,Iletisim,,,7
+2/27/2016 12:29:28,Reklamcılık,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Hayır,,,Iletisim,,,8
+2/27/2016 12:42:13,Reklamcılık,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Hayır,,,Iletisim,,,7
 2/27/2016 13:10:51,Mühendis,Elektrik ve Elektronik,9,Evet,Lisans,Hayır,,,Muhendislik,,,3
 2/27/2016 13:14:24,Backend Developer,Bilisim Teknolojileri,10,Hayır,Lisans,Hayır,,,Egitim,,,3
 2/27/2016 13:21:39,Bilgisayar Muhendisi,Bilisim Teknolojileri,8,Evet,Yüksek lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Yazilim Muhendisligi,Yazilim Muhendisligi,9
-2/27/2016 13:25:43,Reklam Yazarı,"Medya, İletisim ve Yayincilik",9,Evet,Lisans,Hayır,,,Iletisim,valla yok,valla o da yok.,2
+2/27/2016 13:25:43,Reklam Yazarı,"Medya, Iletisim ve Tasarim",9,Evet,Lisans,Hayır,,,Iletisim,valla yok,valla o da yok.,2
 2/27/2016 14:04:59,yazılımcı,Bilisim Teknolojileri,8,Hayır,Lise,Evet,,,Egitim,,,4
-2/27/2016 14:08:33,Muhabir,"Medya, İletisim ve Yayincilik",10,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,8
+2/27/2016 14:08:33,Muhabir,"Medya, Iletisim ve Tasarim",10,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,8
 2/27/2016 14:09:32,Sanat Yönetmeni,"Kultur, Sanat ve Tasarim",8,Hayır,Lise,Evet,,,Sosyal Bilimler,,,5
 2/27/2016 14:13:32,Avukat,Adalet ve Guvenlik,3,Evet,Lisans,Hayır,,,Hukuk,Yok,Yok,2
-2/27/2016 14:32:15,Reklamcı,"Medya, İletisim ve Yayincilik",5,Evet,Lisans,Hayır,,,Iletisim,,,4
+2/27/2016 14:32:15,Reklamcı,"Medya, Iletisim ve Tasarim",5,Evet,Lisans,Hayır,,,Iletisim,,,4
 2/27/2016 14:35:05,User Interface Developer,Bilisim Teknolojileri,9,Hayır,Lise,Evet,,,Fen Bilimleri,,,2
 2/27/2016 14:58:16,Erp danismanligi,Bilisim Teknolojileri,4,Evet,Ön Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,3
 2/27/2016 15:37:53,Matematik Mühendisi,Muhendis,8,Evet,Lisans,Hayır,,,Muhendislik,yok,yok,1
 2/27/2016 15:47:57,grafik tasarımcı,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,,Iletisim,yok,yok,11
 2/27/2016 15:54:30,Doktor,Saglik ve Sosyal Hizmetler,10,Evet,Lisans,Hayır,,,Saglik,,,1
 2/27/2016 15:59:37,Okul öncesi öğretmeni ,Egitim,10,Evet,Lisans,Hayır,,,Egitim,,,8
-2/27/2016 16:36:43,sosyal medya uzmanı,"Medya, İletisim ve Yayincilik",5,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,1
-2/27/2016 16:40:39,CNC OPERATÖRÜ,,5,Hayır,Lise,Hayır,,,-,,,11
-2/27/2016 16:41:51,Antrenör,,10,Evet,Yüksek lisans,Evet,,,Diger,Spor ve sağlık ,Beden eğitimi ve spor,6
+2/27/2016 16:36:43,sosyal medya uzmanı,"Medya, Iletisim ve Tasarim",5,Hayır,Lisans,Hayır,,,Sosyal Bilimler,,,1
+2/27/2016 16:40:39,CNC OPERATÖRÜ,Temel Meslek,5,Hayır,Lise,Hayır,,,-,,,11
+2/27/2016 16:41:51,Antrenör,Egitim,10,Evet,Yüksek lisans,Evet,,,Diger,Spor ve sağlık ,Beden eğitimi ve spor,6
 2/27/2016 17:38:01,Elektrik-Elektronik Mühendisi,Elektrik ve Elektronik,7,Evet,Yüksek lisans,Hayır,,,Muhendislik,İşletme,,8
 2/27/2016 17:52:37,Yazilim uzmani,Bilisim Teknolojileri,7,Evet,Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,5
-2/27/2016 18:13:22,Reklamcılık,"Medya, İletisim ve Yayincilik",8,Evet,Yüksek lisans,Hayır,,,Iletisim,Pazarlama,,2
-2/27/2016 18:37:26,Pazarlama iletişim uzmanı,"Medya, İletisim ve Yayincilik",7,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,MBA,,2
-2/27/2016 18:58:41,Drama Ogretmeni,"Medya, İletisim ve Yayincilik",4,Evet,Yüksek lisans,Evet,,,Guzel Sanatlar,Egitim Yonetimi ve Denetimi,,2
-2/27/2016 19:13:16,Community Manager,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Evet,,,Iletisim,Halkla İlişkiler,,2
-2/27/2016 19:16:32,İçerik Üretici,"Medya, İletisim ve Yayincilik",8,Evet,Lise,Evet,,,Iletisim,,,3
-2/27/2016 19:16:45,Reklamcı,"Medya, İletisim ve Yayincilik",8,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,10
+2/27/2016 18:13:22,Reklamcılık,"Medya, Iletisim ve Tasarim",8,Evet,Yüksek lisans,Hayır,,,Iletisim,Pazarlama,,2
+2/27/2016 18:37:26,Pazarlama iletişim uzmanı,"Medya, Iletisim ve Tasarim",7,Evet,Yüksek lisans,Hayır,,,Sosyal Bilimler,MBA,,2
+2/27/2016 18:58:41,Drama Ogretmeni,"Medya, Iletisim ve Tasarim",4,Evet,Yüksek lisans,Evet,,,Guzel Sanatlar,Egitim Yonetimi ve Denetimi,,2
+2/27/2016 19:13:16,Community Manager,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Evet,,,Iletisim,Halkla İlişkiler,,2
+2/27/2016 19:16:32,İçerik Üretici,"Medya, Iletisim ve Tasarim",8,Evet,Lise,Evet,,,Iletisim,,,3
+2/27/2016 19:16:45,Reklamcı,"Medya, Iletisim ve Tasarim",8,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,10
 2/27/2016 19:43:03,Mühendis,Muhendis,4,Evet,Lisans,Hayır,,,Muhendislik,,,30
 2/27/2016 19:52:54,Mimar ,Mimar,4,Evet,Yüksek lisans,Hayır,,,Mimarlik,Mimarlık ,Yok,4
 2/27/2016 20:02:51,Arayuz Gelistirici / Tasarimci,Bilisim Teknolojileri,10,Evet,Lisans,Hayır,,,Iletisim,,,7
-2/27/2016 20:06:51,Hamal,,8,Hayır,Lise,Hayır,,,-,,,12
-2/27/2016 20:07:15,Bankacı,,2,Evet,Lisans,Hayır,,,Iktisat,yok,yok,9
-2/27/2016 20:40:03,Sosyolog (olacak),,6,Evet,Lise,Evet,,,Sosyal Bilimler,,,Henüz çalışmıyorum
+2/27/2016 20:06:51,Hamal,Temel Meslek,8,Hayır,Lise,Hayır,,,-,,,12
+2/27/2016 20:07:15,Bankacı,Ekonomi,2,Evet,Lisans,Hayır,,,Iktisat,yok,yok,9
+2/27/2016 20:40:03,Sosyolog (olacak),Ogrenci,6,Evet,Lise,Evet,,,Sosyal Bilimler,,,Henüz çalışmıyorum
 2/27/2016 22:11:19,Topluluk Yöneticisi,Is ve Yonetim,8,Hayır,Lisans,Hayır,,,Iktisat,,,5
 2/27/2016 22:17:04,Web Tasarım,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,,Guzel Sanatlar,-,-,18
-2/27/2016 22:36:46,Öğrenci,,9,Evet,Lise,Evet,,,Fen Bilimleri,yok,yok,15
+2/27/2016 22:36:46,Öğrenci,Ogrenci,9,Evet,Lise,Evet,,,Fen Bilimleri,yok,yok,15
 2/27/2016 23:06:31,Pazarlama Uzmanı,Ticaret,7,Evet,Lisans,Hayır,,,Iletisim,,,2
 2/27/2016 23:06:43,Yazılımcı,Bilisim Teknolojileri,7,Hayır,Lise,Hayır,,,Sosyal Bilimler,,,3
-2/27/2016 23:32:42,diplomat,,6,Hayır,Yüksek lisans,Evet,,,Sosyal Bilimler,İspanyol Dili ve Edebiyatı,İspanyol Dili ve Edebiyatı,1
-2/28/2016 0:09:22,Turimz,,9,Hayır,Lise,Hayır,,,-,,,7
+2/27/2016 23:32:42,diplomat,"Medya, Iletisim ve Tasarim",6,Hayır,Yüksek lisans,Evet,,,Sosyal Bilimler,İspanyol Dili ve Edebiyatı,İspanyol Dili ve Edebiyatı,1
+2/28/2016 0:09:22,Turimz,Turizm,9,Hayır,Lise,Hayır,,,-,,,7
 2/28/2016 0:13:15,Biliminsanı,Bilim,9,Evet,Doktora,Hayır,,,Fen Bilimleri,MBG,MBG,6
-2/28/2016 0:22:32,Dijital iletişim uzmanı,"Medya, İletisim ve Yayincilik",4,Hayır,Lise,Hayır,,,Muhendislik,,,10
-2/28/2016 0:41:04,öğreci,,6,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,14
+2/28/2016 0:22:32,Dijital iletişim uzmanı,"Medya, Iletisim ve Tasarim",4,Hayır,Lise,Hayır,,,Muhendislik,,,10
+2/28/2016 0:41:04,öğreci,Ogrenci,6,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,14
 2/28/2016 0:59:20,Frontend dev ,Bilisim Teknolojileri,8,Evet,Lisans,Hayır,,,Egitim,,,1.5
 2/28/2016 1:05:31,Avukat,Adalet ve Guvenlik,3,Evet,Lisans,Hayır,,,Hukuk,,,10
 2/28/2016 1:29:28,İdari asistanlık ,Is ve Yonetim,4,Hayır,Yüksek lisans,Evet,,,Fen Bilimleri,Biyomedikal mühendisliği ,Biyomedikal mühendisliği ,4
-2/28/2016 1:59:43,Reklamcı,"Medya, İletisim ve Yayincilik",7,Evet,Lisans,Hayır,,,Iletisim,,,7
-2/28/2016 2:20:23,PR Manager,,8,Hayır,Lisans,Hayır,,,Iktisat,yok,yok,1
-2/28/2016 3:17:42,animasyon,,6,Evet,Lisans,Evet,,,Guzel Sanatlar,,,2
-2/28/2016 4:43:17,editör,"Medya, İletisim ve Yayincilik",10,Evet,Lisans,Hayır,,,Iletisim,yokki,yokki,1
+2/28/2016 1:59:43,Reklamcı,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Iletisim,,,7
+2/28/2016 2:20:23,PR Manager,"Medya, Iletisim ve Tasarim",8,Hayır,Lisans,Hayır,,,Iktisat,yok,yok,1
+2/28/2016 3:17:42,animasyon,"Medya, Iletisim ve Tasarim",6,Evet,Lisans,Evet,,,Guzel Sanatlar,,,2
+2/28/2016 4:43:17,editör,"Medya, Iletisim ve Tasarim",10,Evet,Lisans,Hayır,,,Iletisim,yokki,yokki,1
 2/28/2016 8:18:50,İnşaat Mühendisi,Muhendis,2,Evet,Lisans,Hayır,,,Muhendislik,n/a,n/a,17
 2/28/2016 8:36:42,Mobil yazılım uzmanı,Bilisim Teknolojileri,8,Evet,Yüksek lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,Bilgisayar mühendisliği,,4
 2/28/2016 10:06:05,Okul oncesi ogretmeni,Egitim,6,Evet,Ön Lisans,Hayır,,,Egitim,Yok,Yok,6
 2/28/2016 16:18:45,Avukat,Adalet ve Guvenlik,7,Evet,Lisans,Hayır,,,Hukuk,,,2
 2/28/2016 17:13:02,Moda tasarımcısı ,"Kultur, Sanat ve Tasarim",8,Evet,Lisans,Hayır,,,Guzel Sanatlar,,,3
 2/28/2016 17:42:35,webappsec,Bilisim Teknolojileri,10,Hayır,Lise,Hayır,,,-,,,4
-2/28/2016 21:35:58,sosyal medya uzmanı,"Medya, İletisim ve Yayincilik",7,Hayır,Yüksek lisans,Evet,,,Iktisat,Gazetecilik ,,5
+2/28/2016 21:35:58,sosyal medya uzmanı,"Medya, Iletisim ve Tasarim",7,Hayır,Yüksek lisans,Evet,,,Iktisat,Gazetecilik ,,5
 2/28/2016 21:52:40,Fotoğrafçı,"Kultur, Sanat ve Tasarim",9,Evet,Lisans,Hayır,,,Iletisim,,,15
-2/28/2016 21:53:39,ekonomist,,3,Evet,Lisans,Evet,,,Iktisat,Kadın Araştırmaları,,10
-2/28/2016 22:46:29,çevirmen,,7,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,2
+2/28/2016 21:53:39,ekonomist,Ekonomi,3,Evet,Lisans,Evet,,,Iktisat,Kadın Araştırmaları,,10
+2/28/2016 22:46:29,çevirmen,"Medya, Iletisim ve Tasarim",7,Evet,Lisans,Hayır,,,Sosyal Bilimler,,,2
 2/29/2016 0:12:58,Front end Developer,Bilisim Teknolojileri,9,Evet,Lisans,Hayır,,,Egitim,Yönetim Bilişim Sistemleri terk,,8
 2/29/2016 0:26:06,Mühendis,Muhendis,10,Evet,Doktora,Hayır,,,Muhendislik,Malzeme bilimi ve mühendisliği,Malzeme bilimi ve mühendisliği,5
 2/29/2016 1:37:45,Vodafone Satış danışmanı,Temel Meslek,2,Hayır,Lisans,Hayır,,,Muhendislik,,,7 aydır 
@@ -600,7 +600,7 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 3/2/2016 11:20:11,Tasarım,"Kultur, Sanat ve Tasarim",6,Evet,Lisans,Hayır,,,Iletisim,,,10
 3/3/2016 15:04:05,Tasarımcı,"Kultur, Sanat ve Tasarim",8,Evet,Lise,Evet,,,Guzel Sanatlar,,,2
 3/3/2016 19:48:57,Software Developer,Bilisim Teknolojileri,10,Hayır,Lise,Evet,,,Sosyal Bilimler,,S.A,6
-3/3/2016 19:49:28,Yatırım Uzmanı,,5,Evet,Lisans,Hayır,,,Iktisat,,,3
+3/3/2016 19:49:28,Yatırım Uzmanı,Ekonomi,5,Evet,Lisans,Hayır,,,Iktisat,,,3
 3/3/2016 22:19:01,DevOps,Bilisim Teknolojileri,8,Evet,Ön Lisans,Hayır,,,,,,7
 3/3/2016 23:20:41,Yazılım,Bilisim Teknolojileri,10,Hayır,Orta okul,Hayır,,,-,,,16
 3/4/2016 9:29:27,Yazılım Uzmanı,Bilisim Teknolojileri,9,Hayır,Lisans,Hayır,,,Fen Bilimleri,,,12
@@ -612,6 +612,6 @@ Timestamp,Meslek,Sektor,memnuniyetiniz,baglantili,Son derece,Şu an,,LISANS BOLU
 3/4/2016 17:03:14,Bilgisayar programcısı,Bilisim Teknolojileri,10,Evet,Ön Lisans,Hayır,,Bilgisayar Muhendisligi,Muhendislik,,,3
 3/5/2016 20:59:24,junior full stack developer,Bilisim Teknolojileri,8,Evet,Lise,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,1.5
 3/6/2016 0:40:19,yazılım mühendisliği,Bilisim Teknolojileri,8,Evet,Lisans,Evet,,Bilgisayar Muhendisligi,Muhendislik,,,3
-3/6/2016 8:23:29,Turizmci,,3,Evet,Lisans,Hayır,,,Iktisat,,,7
+3/6/2016 8:23:29,Turizmci,Turizm,3,Evet,Lisans,Hayır,,,Iktisat,,,7
 3/6/2016 20:11:57,Arayüz tasarımcısı,Bilisim Teknolojileri,7,Hayır,Lise,Hayır,,,Iletisim,,,4
-3/9/2016 16:02:38,Medya Çalışanı,"Medya, İletisim ve Yayincilik",7,Evet,Yüksek lisans,Hayır,,,Guzel Sanatlar,Sosyal Bilimler - Sinema Anasanat,Yok,14
+3/9/2016 16:02:38,Medya Çalışanı,"Medya, Iletisim ve Tasarim",7,Evet,Yüksek lisans,Hayır,,,Guzel Sanatlar,Sosyal Bilimler - Sinema Anasanat,Yok,14

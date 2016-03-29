@@ -21,11 +21,19 @@
   "homepage": "https://github.com/hanakamer/data-vis#readme",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "json-loader": "^0.5.4",
     "less": "^2.6.1",
     "less-loader": "^2.2.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.8.4"
+  },
+  "dependencies": {
+    "d3": "^3.5.16",
+    "d3-sankey": "^0.2.1",
+    "d3.chart": "^0.3.0",
+    "jquery": "^2.2.2"
   }
 }

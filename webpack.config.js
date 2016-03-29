@@ -24,6 +24,11 @@ const common = {
      loader: 'style!css!less',
      include: PATHS.app
    },
+   {
+     test: /\.json$/,
+     loader: 'json',
+     include: PATHS.app
+   }
  ]
  },
  watch: true
