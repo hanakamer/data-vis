@@ -1,45 +1,25 @@
-@background-color: #ffffff;
-@text-color: #1A237E;
-
-p{
-  background-color: @background-color;
-  color: @text-color;
-  padding: 15px;
-}
+@text-color: #aaa;
+@rect-border-color-grey:#E6E6E6;
 body {
-      font-family: sans-serif;
-    }
-    .node rect {
-      fill-opacity: .9;
-      shape-rendering: crispEdges;
-    }
-    .link {
-      fill: none;
-      stroke: #024;
-      stroke-opacity: .5;
-    }
-    .link:hover {
-      stroke-opacity: 1;
-    }
+  font-family: Consolas, courier;
+}
+.node rect {
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+.link {
+  fill: none;
+  stroke-opacity: .5;
+}
+.link:hover {
+  stroke-opacity: 1;
+}
 rect.bordered {
-       stroke: #E6E6E6;
-       stroke-width:2px;
-     }
+  stroke: @rect-border-color-grey;
+  stroke-width:2px;
+}
 
 text.mono {
  font-size: 9pt;
- font-family: Consolas, courier;
- fill: #aaa;
-}
-
-text.axis-workweek {
- fill: #000;
-}
-
-text.axis-worktime {
- fill: #000;
-}
-text.rect-text {
-  fill: red;
-  font: 10px sans-serif;
+ fill:@text-color;
 }
