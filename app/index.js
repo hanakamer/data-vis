@@ -1,5 +1,6 @@
 require('./main.less');
 require('d3');
+require('./heatmap.js');
 const data = {};
 const Sankey = require('d3-sankey').sankey;
 const dataJson = require('./data.json');
@@ -48,7 +49,6 @@ data.nodes = [
 
 data.nodes.forEach(function(x){
   nodeMap[x.name] = x});
-
 data.links= dataJson.map(function(x){
   return {
     source: x.lisans,
@@ -68,9 +68,9 @@ data.links = data.links.map(function(x){
 
 
 // Some setup stuff.
-const margin = {top: 1, right: 1, bottom: 6, left: 1};
+const margin = {top: 10, right: 1, bottom: 6, left: 1};
 const width = 960 - margin.left - margin.right;
-const height = 500 - margin.top - margin.bottom;
+const height = 600 - margin.top - margin.bottom;
 const color = d3.scale.category20();
 // SVG (group) to draw in.
 const svg = d3.select("#chart").append("svg")
