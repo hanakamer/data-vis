@@ -52,8 +52,11 @@
 	const dataJson = __webpack_require__(12);
 	const $ = __webpack_require__(13)
 	const nodeMap = {};
-	const formatNumber = d3.format(",.0f");
-	const format = function(d) { return formatNumber(d) + " TWh"; };
+	const margin = {top: 30, right: 1, bottom: 50, left: 1};
+	const width = (960 - margin.left - margin.right);
+	const height = 600 - margin.top - margin.bottom;
+	const color = d3.scale.category20();
+
 	data.nodes = [
 	    {name: "Bilisim Teknolojileri"},
 	    {name: "Medya, Iletisim ve Yayincilik"},
@@ -94,14 +97,6 @@
 
 	data.nodes.forEach(function(x){
 	  nodeMap[x.name] = x});
-	// data.links= dataJson.map(function(x){
-	//   return {
-	//     source: x.lisans,
-	//     target: x.Sektor,
-	//     class: x.Sektor.replace(/\s+/g, '')+" "+ x.lisans.replace(/\s+/g, '')+" link",
-	//     value: 1
-	//   }
-	// });
 
 	data.links = dataJson.reduce(function(result, curr) {
 	  result[curr.lisans + "_" + curr.Sektor] = {
@@ -124,11 +119,6 @@
 	    value: x.value
 	  }
 	});
-
-	const margin = {top: 10, right: 1, bottom: 6, left: 1};
-	const width = 960 - margin.left - margin.right;
-	const height = 600 - margin.top - margin.bottom;
-	const color = d3.scale.category20();
 
 	const svg = d3.select("#chart").append("svg")
 	        .attr({
@@ -230,8 +220,18 @@
 	function fade(opacity) {
 	 return function(g, i) {
 	   let elements = svg.selectAll(".node");
-	   elements = elements.filter(function(d) {
-	     return d.name != data.nodes[i].name});
+	   let myarray = [];
+	   myarray.push(data.nodes[i].name);
+	   g.sourceLinks.forEach(function(source){
+	     myarray.push(source.target.name);
+	   });
+	   g.targetLinks.forEach(function(source){
+	     myarray.push(source.source.name);
+	   });
+	   myarray.forEach(function(source){
+	     elements = elements.filter(function(d) { return d.name != source })
+	   })
+
 	   elements.transition()
 	       .style("opacity", opacity);
 
@@ -278,7 +278,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  font-family: Consolas, courier;\n}\n.node rect {\n  fill-opacity: .9;\n  shape-rendering: crispEdges;\n}\n.link {\n  fill: none;\n  stroke-opacity: .5;\n}\n.link:hover {\n  stroke-opacity: 1;\n}\nrect.bordered {\n  stroke: #E6E6E6;\n  stroke-width: 2px;\n}\ntext.mono {\n  font-size: 9pt;\n  fill: #aaa;\n}\n", ""]);
+	exports.push([module.id, "body {\n  font-family: Consolas, courier;\n  text-align: center;\n}\n.node rect {\n  fill-opacity: .9;\n  shape-rendering: crispEdges;\n}\n.link {\n  fill: none;\n  stroke-opacity: .5;\n}\n.link:hover {\n  stroke-opacity: 1;\n}\nrect.bordered {\n  stroke: #E6E6E6;\n  stroke-width: 2px;\n}\ntext.mono {\n  font-size: 9pt;\n  fill: #aaa;\n}\n", ""]);
 
 	// exports
 
@@ -10155,13 +10155,13 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	  const jsonFile = __webpack_require__(7)
-	  const margin = { top: 250, right: 0, bottom: 10, left: 200 }
-	  const width = 960 - margin.left - margin.right
-	  const height = 960 - margin.top - margin.bottom
+	  const margin = { top: 330, right: 0, bottom: 40, left: 100 }
+	  const width = (700 - margin.left - margin.right)
+	  const height = 760 - margin.top - margin.bottom
 	  const gridSize = Math.floor(width / 24)
 	  const legendElementWidth = gridSize*2
-	  const buckets = 9
-	  const colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"]// alternatively colorbrewer.YlGnBu[9]
+	  const buckets = 6
+	  const colors = ['#edf8e9','#c7e9c0','#a1d99b','#74c476','#31a354','#006d2c']
 	  const departments =[
 	    "Bilisim Teknolojileri",
 	    "Medya, Iletisim ve Yayincilik",
@@ -10187,10 +10187,12 @@
 	const duration = [ "<1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10-15", "15-20", "20-30", ">30"];
 
 	const svg = d3.select("#heatmap").append("svg")
-	    .attr("width", width + margin.left + margin.right)
-	    .attr("height", height + margin.top + margin.bottom)
-	    .append("g")
-	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	              .attr({
+	                width: width + margin.left + margin.right,
+	                height: height + margin.top + margin.bottom
+	              })
+	              .append("g")
+	              .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	const departmentLabels = svg.selectAll(".departmentLabel")
 	    .data(departments)
@@ -10214,28 +10216,7 @@
 	      .style("text-anchor", "end")
 	      .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
 	      .attr("class", "durationLabel mono axis" );
-	const formatedData = [
-	  {name: "Bilisim Teknolojileri"},
-	  {name: "Medya, Iletisim ve Yayincilik"},
-	  {name: "Muhendis"},
-	  {name: "Akademik"},
-	  {name: "Saglik ve Sosyal Hizmetler"},
-	  {name: "Egitimci"},
-	  {name: "Ulastirma, Lojistik ve Haberlesme"},
-	  {name: "Adalet ve Guvenlik"},
-	  {name: "Is ve Yonetim"},
-	  {name: "Kultur, Sanat ve Tasarim"},
-	  {name: "Ticaret"},
-	  {name: "Mimar"},
-	  {name: "Bilim"},
-	  {name: "Temel Meslek"},
-	  {name: "Elektrik ve Elektronik"},
-	  {name: "Muhasebe"},
-	  {name: "Turizm"},
-	  {name: "Ekonomi"},
-	  {name: "Ogrenci"},
-	  {name: "Sigorta"},
-	]
+
 	let heatmapdata = []
 	for (let i = 0; i < departments.length; i++){
 	  for (let k = 0; k < duration.length; k++) {
@@ -10246,15 +10227,13 @@
 	    heatmapdata[departments[i] + ',' + duration[k]]['duration_num'] = k;
 	    heatmapdata[departments[i] + ',' + duration[k]]['values'] = []
 	    heatmapdata.push(heatmapdata[departments[i] + ',' + duration[k]])
-
 	  }
 	}
-
-	jsonFile.map(function(person){
+	jsonFile.forEach(function(person){
 	  let val = '';
 	  if (person.Kacsene<1){
 	    val = "<1";
-	  }else if (person.Kacsene>1 && person.Kacsene<11) {
+	  }else if (person.Kacsene>=1 && person.Kacsene<11) {
 	    val = Math.round(person.Kacsene);
 	  }else if (person.Kacsene>10 && person.Kacsene<16) {
 	    val = "10-15";
@@ -10266,7 +10245,6 @@
 	    val = ">30";
 	  }
 	  heatmapdata[person.Sektor + ',' + val ]['values'].push(person.memnuniyetiniz)
-
 	})
 
 	let data = {}
@@ -10277,7 +10255,6 @@
 	    sum = x.values.reduce(function(a, b) { return a + b; });
 	    avg = sum / x.values.length;
 	  }
-
 	 return {
 	   department: x.department,
 	   duration: x.duration,
@@ -10288,24 +10265,46 @@
 	});
 
 	const colorScale = d3.scale.quantile()
-	        .domain([0, buckets-1, d3.max(data, function(d){return d.value})])
+	        .domain([0, buckets-1, d3.max(data, function(d) { return d.value })])
 	        .range(colors);
+
 	const cards = svg.selectAll(".duration")
 	      .data(data, function(d) {
 	        return d.department_num+":"+d.duration_num})
 	cards.append('title');
 	cards.enter().append("rect")
-	    .attr("x", function(d){
-	      return (d.department_num)*gridSize})
-	    .attr("y", function(d,i){
-	      return (d.duration_num)*gridSize})
+	    .attr("x", function(d) { return (d.department_num)*gridSize })
+	    .attr("y", function(d,i) { return (d.duration_num)*gridSize })
 	    .attr("rx", 4)
 	    .attr("rx", 4)
 	    .attr("class", "duration bordered")
 	    .attr("width", gridSize)
 	    .attr("height", gridSize)
-	    .style("fill", function(d, i) {
-	      return colors[Math.round(d.value/2)]; })
+	    .style("fill", function(d, i) { return colors[Math.round(d.value/2)]; });
+
+	cards.exit().remove();
+
+	const legend = svg.selectAll(".legend")
+	    .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+
+	legend.enter().append("g")
+	    .attr("class", "legend");
+
+	legend.append("rect")
+	  .attr("x", function(d, i) { return legendElementWidth * i; })
+	  .attr("y", height)
+	  .attr("width", legendElementWidth)
+	  .attr("height", gridSize / 2)
+	  .style("fill", function(d, i) { return colors[i]; });
+
+	legend.append("text")
+	  .attr("class", "mono")
+	  .text(function(d) {
+	    return "≥ " + Math.round(d); })
+	  .attr("x", function(d, i) { return legendElementWidth * i; })
+	  .attr("y", height + gridSize);
+
+	legend.exit().remove();
 
 
 /***/ },
@@ -10699,7 +10698,7 @@
 		},
 		{
 			"Meslek": "Terrarium tasarımcısı",
-			"Sektor": "Kultur, Sanat ve Yayincilik",
+			"Sektor": "Kultur, Sanat ve Tasarim",
 			"memnuniyetiniz": 4,
 			"baglantili": "Evet",
 			"Son derece": "Lisans",
