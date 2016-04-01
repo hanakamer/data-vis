@@ -44,204 +44,135 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	__webpack_require__(1);
 	__webpack_require__(5);
 	__webpack_require__(6);
-	const data = {};
-	const Sankey = __webpack_require__(8).sankey;
-	const dataJson = __webpack_require__(12);
-	const $ = __webpack_require__(13)
-	const nodeMap = {};
-	const margin = {top: 30, right: 1, bottom: 50, left: 1};
-	const width = (960 - margin.left - margin.right);
-	const height = 600 - margin.top - margin.bottom;
-	const color = d3.scale.category20();
+	var data = {};
+	var Sankey = __webpack_require__(8).sankey;
+	var dataJson = __webpack_require__(12);
+	var $ = __webpack_require__(13);
+	var nodeMap = {};
+	var margin = { top: 30, right: 1, bottom: 50, left: 1 };
+	var width = 960 - margin.left - margin.right;
+	var height = 600 - margin.top - margin.bottom;
+	var color = d3.scale.category20();
 
-	data.nodes = [
-	    {name: "Bilisim Teknolojileri"},
-	    {name: "Medya, Iletisim ve Yayincilik"},
-	    {name: "Muhendis"},
-	    {name: "Akademik"},
-	    {name: "Saglik ve Sosyal Hizmetler"},
-	    {name: "Egitimci"},
-	    {name: "Ulastirma, Lojistik ve Haberlesme"},
-	    {name: "Adalet ve Guvenlik"},
-	    {name: "Is ve Yonetim"},
-	    {name: "Kultur, Sanat ve Tasarim"},
-	    {name: "Ticaret"},
-	    {name: "Mimar"},
-	    {name: "Bilim"},
-	    {name: "Temel Meslek"},
-	    {name: "Elektrik ve Elektronik"},
-	    {name: "Muhasebe"},
-	    {name: "Turizm"},
-	    {name: "Ekonomi"},
-	    {name: "Sigorta"},
-	    {name: "-"},
-	    {name: "?"},
-	    {name: "Muhendislik"},
-	    {name: "Egitim"},
-	    {name: "Diger"},
-	    {name: "Iletisim"},
-	    {name: "Sosyal Bilimler"},
-	    {name: "Siyasal Bilimler"},
-	    {name: "Isletme"},
-	    {name: "Iktisat"},
-	    {name: "Fen Bilimleri"},
-	    {name: "Saglik"},
-	    {name: "Guzel Sanatlar"},
-	    {name: "Hukuk"},
-	    {name: "Mimarlik"},
-	    {name: "BESYO"}
-	  ];
+	data.nodes = [{ name: "Bilisim Teknolojileri" }, { name: "Medya, Iletisim ve Yayincilik" }, { name: "Muhendis" }, { name: "Akademik" }, { name: "Saglik ve Sosyal Hizmetler" }, { name: "Egitimci" }, { name: "Ulastirma, Lojistik ve Haberlesme" }, { name: "Adalet ve Guvenlik" }, { name: "Is ve Yonetim" }, { name: "Kultur, Sanat ve Tasarim" }, { name: "Ticaret" }, { name: "Mimar" }, { name: "Bilim" }, { name: "Temel Meslek" }, { name: "Elektrik ve Elektronik" }, { name: "Muhasebe" }, { name: "Turizm" }, { name: "Ekonomi" }, { name: "Sigorta" }, { name: "-" }, { name: "?" }, { name: "Muhendislik" }, { name: "Egitim" }, { name: "Diger" }, { name: "Iletisim" }, { name: "Sosyal Bilimler" }, { name: "Siyasal Bilimler" }, { name: "Isletme" }, { name: "Iktisat" }, { name: "Fen Bilimleri" }, { name: "Saglik" }, { name: "Guzel Sanatlar" }, { name: "Hukuk" }, { name: "Mimarlik" }, { name: "BESYO" }];
 
-	data.nodes.forEach(function(x){
-	  nodeMap[x.name] = x});
+	data.nodes.forEach(function (x) {
+	  nodeMap[x.name] = x;
+	});
 
-	data.links = dataJson.reduce(function(result, curr) {
+	data.links = dataJson.reduce(function (result, curr) {
 	  result[curr.lisans + "_" + curr.Sektor] = {
 	    source: curr.lisans,
 	    target: curr.Sektor,
-	    class: curr.Sektor.replace(/\s+/g, '')+" "+ curr.lisans.replace(/\s+/g, '')+" link",
-	    value: (result[curr.lisans + "_" + curr.Sektor] || { value: 0 }).value + 1,
+	    class: curr.Sektor.replace(/\s+/g, '') + " " + curr.lisans.replace(/\s+/g, '') + " link",
+	    value: (result[curr.lisans + "_" + curr.Sektor] || { value: 0 }).value + 1
 	  };
 
 	  return result;
 	}, {});
 
-	data.links = Object.keys(data.links).map(function(key) {return data.links[key]});
+	data.links = Object.keys(data.links).map(function (key) {
+	  return data.links[key];
+	});
 
-	data.links = data.links.map(function(x){
+	data.links = data.links.map(function (x) {
 	  return {
 	    source: nodeMap[x.source],
 	    target: nodeMap[x.target],
 	    class: x.class,
 	    value: x.value
-	  }
+	  };
 	});
 
-	const svg = d3.select("#chart").append("svg")
-	        .attr({
-	          width: width + margin.left + margin.right,
-	          height: height + margin.top + margin.bottom
-	        })
-	        .append("g")
-	        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	var svg = d3.select("#chart").append("svg").attr({
+	  width: width + margin.left + margin.right,
+	  height: height + margin.top + margin.bottom
+	}).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	const sankey = Sankey()
-	        .nodeWidth(30)
-	        .nodePadding(10)
-	        .size([width, height]);
+	var sankey = Sankey().nodeWidth(30).nodePadding(10).size([width, height]);
 
-	const path = sankey.link();
-	sankey.nodes(data.nodes)
-	  .links(data.links)
-	  .layout(32);
+	var path = sankey.link();
+	sankey.nodes(data.nodes).links(data.links).layout(32);
 
-	const link = svg.append("g").selectAll(".link")
-	        .data(data.links)
-	        .enter()
-	        .append("path")
-	        .attr('class', 'link')
-	        .attr("id", function(d,i){
-	          d.id = i;
-	          return "link-"+i;
-	        })
-	        .attr({
-	          d: path
-	        })
-	        .style("stroke", function(d){
-	        return d.color = color(d.source.name.replace(/ .*/, ""));})
-	        .style("stroke-width", function (d) {
-	          return Math.max(1, d.dy);
-	        })
-	link.append("title")
-	        .text(function (d) {
-	          return d.source.name + " to " + d.target.name + " = " + d.value;
-	        });
+	var link = svg.append("g").selectAll(".link").data(data.links).enter().append("path").attr('class', 'link').attr("id", function (d, i) {
+	  d.id = i;
+	  return "link-" + i;
+	}).attr({
+	  d: path
+	}).style("stroke", function (d) {
+	  return d.color = color(d.source.name.replace(/ .*/, ""));
+	}).style("stroke-width", function (d) {
+	  return Math.max(1, d.dy);
+	});
+	link.append("title").text(function (d) {
+	  return d.source.name + " to " + d.target.name + " = " + d.value;
+	});
 
-	const nodes = svg.append("g").selectAll(".node")
-	        .data(data.nodes)
-	        .enter()
-	        .append("g")
-	        .attr('class'," node")
-	        .attr({
-	          transform: function (d) {
-	            return "translate(" + d.x + "," + d.y + ")";
-	          }
-	        })
-	        .call(d3.behavior.drag()
-	        .origin(function(d) { return d; })
-	        .on("dragstart", function() {
-	  		  this.parentNode.appendChild(this); })
-	        .on("drag", dragmove))
-	        .on("mouseover", fade(0.3))
-				  .on("mouseout", fade(1));
+	var nodes = svg.append("g").selectAll(".node").data(data.nodes).enter().append("g").attr('class', " node").attr({
+	  transform: function transform(d) {
+	    return "translate(" + d.x + "," + d.y + ")";
+	  }
+	}).call(d3.behavior.drag().origin(function (d) {
+	  return d;
+	}).on("dragstart", function () {
+	  this.parentNode.appendChild(this);
+	}).on("drag", dragmove)).on("mouseover", fade(0.3)).on("mouseout", fade(1));
 
-	nodes.append("rect")
-	        .attr({
-	          height: function (d) {
-	            return d.dy;
-	          },
-	          width: sankey.nodeWidth()
-	        })
-	        .style({
-	          fill: function (d) {
-	            return d.color = color(d.name.replace(/ .*/, ""));
-	          }
-	        })
-	        .append("title")
-	        .text(function (d) {
-	          return d.name;
-	        });
-	nodes.append("text")
-	        .attr("x", -6)
-	        .attr("y", function(d) { return d.dy / 2; })
-	        .attr("dy", ".35em")
-	        .attr("text-anchor", "end")
-	        .attr("transform", null)
-	        .text(function(d) { return d.name; })
-	        .filter(function(d) { return d.x < width / 2; })
-	        .attr("x", 6 + sankey.nodeWidth())
-	        .attr("text-anchor", "start");
-
+	nodes.append("rect").attr({
+	  height: function height(d) {
+	    return d.dy;
+	  },
+	  width: sankey.nodeWidth()
+	}).style({
+	  fill: function fill(d) {
+	    return d.color = color(d.name.replace(/ .*/, ""));
+	  }
+	}).append("title").text(function (d) {
+	  return d.name;
+	});
+	nodes.append("text").attr("x", -6).attr("y", function (d) {
+	  return d.dy / 2;
+	}).attr("dy", ".35em").attr("text-anchor", "end").attr("transform", null).text(function (d) {
+	  return d.name;
+	}).filter(function (d) {
+	  return d.x < width / 2;
+	}).attr("x", 6 + sankey.nodeWidth()).attr("text-anchor", "start");
 
 	function dragmove(d) {
-	  d3.select(this).attr("transform",
-	      "translate(" + (
-	      	   d.x = Math.max(0, Math.min(width - d.dx, d3.event.x))
-	      	) + "," + (
-	                 d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))
-	          ) + ")");
+	  d3.select(this).attr("transform", "translate(" + (d.x = Math.max(0, Math.min(width - d.dx, d3.event.x))) + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
 	  sankey.relayout();
 	  link.attr("d", path);
 	}
 
 	function fade(opacity) {
-	 return function(g, i) {
-	   let elements = svg.selectAll(".node");
-	   let myarray = [];
-	   myarray.push(data.nodes[i].name);
-	   g.sourceLinks.forEach(function(source){
-	     myarray.push(source.target.name);
-	   });
-	   g.targetLinks.forEach(function(source){
-	     myarray.push(source.source.name);
-	   });
-	   myarray.forEach(function(source){
-	     elements = elements.filter(function(d) { return d.name != source })
-	   })
+	  return function (g, i) {
+	    var elements = svg.selectAll(".node");
+	    var myarray = [];
+	    myarray.push(data.nodes[i].name);
+	    g.sourceLinks.forEach(function (source) {
+	      myarray.push(source.target.name);
+	    });
+	    g.targetLinks.forEach(function (source) {
+	      myarray.push(source.source.name);
+	    });
+	    myarray.forEach(function (source) {
+	      elements = elements.filter(function (d) {
+	        return d.name != source;
+	      });
+	    });
 
-	   elements.transition()
-	       .style("opacity", opacity);
+	    elements.transition().style("opacity", opacity);
 
-	   svg.selectAll(".link")
-	       .filter(function(d) { return d.source.name != data.nodes[i].name && d.target.name != data.nodes[i].name })
-	     .transition()
-	       .style("opacity", opacity);
-	 };
+	    svg.selectAll(".link").filter(function (d) {
+	      return d.source.name != data.nodes[i].name && d.target.name != data.nodes[i].name;
+	    }).transition().style("opacity", opacity);
+	  };
 	}
-
 
 /***/ },
 /* 1 */
@@ -10154,158 +10085,124 @@
 /* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
-	  const jsonFile = __webpack_require__(7)
-	  const margin = { top: 330, right: 0, bottom: 40, left: 100 }
-	  const width = (700 - margin.left - margin.right)
-	  const height = 760 - margin.top - margin.bottom
-	  const gridSize = Math.floor(width / 24)
-	  const legendElementWidth = gridSize*2
-	  const buckets = 6
-	  const colors = ['#edf8e9','#c7e9c0','#a1d99b','#74c476','#31a354','#006d2c']
-	  const departments =[
-	    "Bilisim Teknolojileri",
-	    "Medya, Iletisim ve Yayincilik",
-	    "Muhendis",
-	    "Akademik",
-	    "Saglik ve Sosyal Hizmetler",
-	    "Egitimci",
-	    "Ulastirma, Lojistik ve Haberlesme",
-	    "Adalet ve Guvenlik",
-	    "Is ve Yonetim",
-	    "Kultur, Sanat ve Tasarim",
-	    "Ticaret",
-	    "Mimar",
-	    "Bilim",
-	    "Temel Meslek",
-	    "Elektrik ve Elektronik",
-	    "Muhasebe",
-	    "Turizm",
-	    "Ekonomi",
-	    "Ogrenci",
-	    "Sigorta"
-	  ]
-	const duration = [ "<1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10-15", "15-20", "20-30", ">30"];
+	'use strict';
 
-	const svg = d3.select("#heatmap").append("svg")
-	              .attr({
-	                width: width + margin.left + margin.right,
-	                height: height + margin.top + margin.bottom
-	              })
-	              .append("g")
-	              .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	var jsonFile = __webpack_require__(7);
+	var margin = { top: 330, right: 0, bottom: 40, left: 100 };
+	var width = 700 - margin.left - margin.right;
+	var height = 760 - margin.top - margin.bottom;
+	var gridSize = Math.floor(width / 24);
+	var legendElementWidth = gridSize * 2;
+	var buckets = 6;
+	var colors = ['#edf8e9', '#c7e9c0', '#a1d99b', '#74c476', '#31a354', '#006d2c'];
+	var departments = ["Bilisim Teknolojileri", "Medya, Iletisim ve Yayincilik", "Muhendis", "Akademik", "Saglik ve Sosyal Hizmetler", "Egitimci", "Ulastirma, Lojistik ve Haberlesme", "Adalet ve Guvenlik", "Is ve Yonetim", "Kultur, Sanat ve Tasarim", "Ticaret", "Mimar", "Bilim", "Temel Meslek", "Elektrik ve Elektronik", "Muhasebe", "Turizm", "Ekonomi", "Ogrenci", "Sigorta"];
+	var duration = ["<1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10-15", "15-20", "20-30", ">30"];
 
-	const departmentLabels = svg.selectAll(".departmentLabel")
-	    .data(departments)
-	    .enter().append("text")
-	      .text(function (d) { return d; })
-	      .attr("x", function(d, i) { return i * gridSize; })
-	      .attr("y", 0)
-	      .attr("transform", function(d, i) {
-	          return "translate(" + gridSize / 10 + ", -20)" +
-	                 "rotate(-90 "+ ((i + 0.5) * gridSize) + " " + (-6) +")";
-	               })
-	      .style("text-anchor", "start")
-	      .attr("class", "departmentLabel mono axis")
+	var svg = d3.select("#heatmap").append("svg").attr({
+	  width: width + margin.left + margin.right,
+	  height: height + margin.top + margin.bottom
+	}).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	const durationLabels = svg.selectAll(".durationLabel")
-	    .data(duration)
-	    .enter().append("text")
-	      .text(function(d) { return d; })
-	      .attr("x", 0)
-	      .attr("y", function (d, i) { return i * gridSize; })
-	      .style("text-anchor", "end")
-	      .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-	      .attr("class", "durationLabel mono axis" );
+	var departmentLabels = svg.selectAll(".departmentLabel").data(departments).enter().append("text").text(function (d) {
+	  return d;
+	}).attr("x", function (d, i) {
+	  return i * gridSize;
+	}).attr("y", 0).attr("transform", function (d, i) {
+	  return "translate(" + gridSize / 10 + ", -20)" + "rotate(-90 " + (i + 0.5) * gridSize + " " + -6 + ")";
+	}).style("text-anchor", "start").attr("class", "departmentLabel mono axis");
 
-	let heatmapdata = []
-	for (let i = 0; i < departments.length; i++){
-	  for (let k = 0; k < duration.length; k++) {
-	    heatmapdata[departments[i] + ',' + duration[k]] = {}
+	var durationLabels = svg.selectAll(".durationLabel").data(duration).enter().append("text").text(function (d) {
+	  return d;
+	}).attr("x", 0).attr("y", function (d, i) {
+	  return i * gridSize;
+	}).style("text-anchor", "end").attr("transform", "translate(-6," + gridSize / 1.5 + ")").attr("class", "durationLabel mono axis");
+
+	var heatmapdata = [];
+	for (var i = 0; i < departments.length; i++) {
+	  for (var k = 0; k < duration.length; k++) {
+	    heatmapdata[departments[i] + ',' + duration[k]] = {};
 	    heatmapdata[departments[i] + ',' + duration[k]]['department'] = departments[i];
 	    heatmapdata[departments[i] + ',' + duration[k]]['department_num'] = i;
 	    heatmapdata[departments[i] + ',' + duration[k]]['duration'] = duration[k];
 	    heatmapdata[departments[i] + ',' + duration[k]]['duration_num'] = k;
-	    heatmapdata[departments[i] + ',' + duration[k]]['values'] = []
-	    heatmapdata.push(heatmapdata[departments[i] + ',' + duration[k]])
+	    heatmapdata[departments[i] + ',' + duration[k]]['values'] = [];
+	    heatmapdata.push(heatmapdata[departments[i] + ',' + duration[k]]);
 	  }
 	}
-	jsonFile.forEach(function(person){
-	  let val = '';
-	  if (person.Kacsene<1){
+	jsonFile.forEach(function (person) {
+	  var val = '';
+	  if (person.Kacsene < 1) {
 	    val = "<1";
-	  }else if (person.Kacsene>=1 && person.Kacsene<11) {
+	  } else if (person.Kacsene >= 1 && person.Kacsene < 11) {
 	    val = Math.round(person.Kacsene);
-	  }else if (person.Kacsene>10 && person.Kacsene<16) {
+	  } else if (person.Kacsene > 10 && person.Kacsene < 16) {
 	    val = "10-15";
-	  }else if (person.Kacsene>15 && person.Kacsene<21) {
+	  } else if (person.Kacsene > 15 && person.Kacsene < 21) {
 	    val = "15-20";
-	  }else if (person.Kacsene>20 && person.Kacsene<31) {
+	  } else if (person.Kacsene > 20 && person.Kacsene < 31) {
 	    val = "20-30";
-	  }else{
+	  } else {
 	    val = ">30";
 	  }
-	  heatmapdata[person.Sektor + ',' + val ]['values'].push(person.memnuniyetiniz)
-	})
-
-	let data = {}
-	data = heatmapdata.map(function(x){
-	  let avg = 0;
-	  if (x.values.length > 0) {
-	    let sum = 0;
-	    sum = x.values.reduce(function(a, b) { return a + b; });
-	    avg = sum / x.values.length;
-	  }
-	 return {
-	   department: x.department,
-	   duration: x.duration,
-	   value: +avg,
-	   department_num: x.department_num,
-	   duration_num: x.duration_num
-	 }
+	  heatmapdata[person.Sektor + ',' + val]['values'].push(person.memnuniyetiniz);
 	});
 
-	const colorScale = d3.scale.quantile()
-	        .domain([0, buckets-1, d3.max(data, function(d) { return d.value })])
-	        .range(colors);
+	var data = {};
+	data = heatmapdata.map(function (x) {
+	  var avg = 0;
+	  if (x.values.length > 0) {
+	    var sum = 0;
+	    sum = x.values.reduce(function (a, b) {
+	      return a + b;
+	    });
+	    avg = sum / x.values.length;
+	  }
+	  return {
+	    department: x.department,
+	    duration: x.duration,
+	    value: +avg,
+	    department_num: x.department_num,
+	    duration_num: x.duration_num
+	  };
+	});
 
-	const cards = svg.selectAll(".duration")
-	      .data(data, function(d) {
-	        return d.department_num+":"+d.duration_num})
+	var colorScale = d3.scale.quantile().domain([0, buckets - 1, d3.max(data, function (d) {
+	  return d.value;
+	})]).range(colors);
+
+	var cards = svg.selectAll(".duration").data(data, function (d) {
+	  return d.department_num + ":" + d.duration_num;
+	});
 	cards.append('title');
-	cards.enter().append("rect")
-	    .attr("x", function(d) { return (d.department_num)*gridSize })
-	    .attr("y", function(d,i) { return (d.duration_num)*gridSize })
-	    .attr("rx", 4)
-	    .attr("rx", 4)
-	    .attr("class", "duration bordered")
-	    .attr("width", gridSize)
-	    .attr("height", gridSize)
-	    .style("fill", function(d, i) { return colors[Math.round(d.value/2)]; });
+	cards.enter().append("rect").attr("x", function (d) {
+	  return d.department_num * gridSize;
+	}).attr("y", function (d, i) {
+	  return d.duration_num * gridSize;
+	}).attr("rx", 4).attr("rx", 4).attr("class", "duration bordered").attr("width", gridSize).attr("height", gridSize).style("fill", function (d, i) {
+	  return colors[Math.round(d.value / 2)];
+	});
 
 	cards.exit().remove();
 
-	const legend = svg.selectAll(".legend")
-	    .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+	var legend = svg.selectAll(".legend").data([0].concat(colorScale.quantiles()), function (d) {
+	  return d;
+	});
 
-	legend.enter().append("g")
-	    .attr("class", "legend");
+	legend.enter().append("g").attr("class", "legend");
 
-	legend.append("rect")
-	  .attr("x", function(d, i) { return legendElementWidth * i; })
-	  .attr("y", height)
-	  .attr("width", legendElementWidth)
-	  .attr("height", gridSize / 2)
-	  .style("fill", function(d, i) { return colors[i]; });
+	legend.append("rect").attr("x", function (d, i) {
+	  return legendElementWidth * i;
+	}).attr("y", height).attr("width", legendElementWidth).attr("height", gridSize / 2).style("fill", function (d, i) {
+	  return colors[i];
+	});
 
-	legend.append("text")
-	  .attr("class", "mono")
-	  .text(function(d) {
-	    return "≥ " + Math.round(d); })
-	  .attr("x", function(d, i) { return legendElementWidth * i; })
-	  .attr("y", height + gridSize);
+	legend.append("text").attr("class", "mono").text(function (d) {
+	  return "≥ " + Math.round(d);
+	}).attr("x", function (d, i) {
+	  return legendElementWidth * i;
+	}).attr("y", height + gridSize);
 
 	legend.exit().remove();
-
 
 /***/ },
 /* 7 */
