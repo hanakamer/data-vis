@@ -28,6 +28,11 @@ const common = {
      test: /\.json$/,
      loader: 'json',
      include: PATHS.app
+   },
+   {
+     test: /\.js$/,
+     loader: 'babel',
+     include: PATHS.app
    }
  ]
  },

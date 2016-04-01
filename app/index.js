@@ -63,7 +63,7 @@ data.links = dataJson.reduce(function(result, curr) {
   return result;
 }, {});
 
-data.links = Object.keys(data.links).map(key => data.links[key]);
+data.links = Object.keys(data.links).map(function(key) {return data.links[key]});
 
 data.links = data.links.map(function(x){
   return {
