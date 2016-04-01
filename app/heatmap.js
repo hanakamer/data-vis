@@ -1,10 +1,10 @@
   const jsonFile = require('./heatmap_data.json')
-  const margin = { top: 250, right: 0, bottom: 10, left: 200 }
-  const width = 960 - margin.left - margin.right
-  const height = 960 - margin.top - margin.bottom
+  const margin = { top: 330, right: 0, bottom: 40, left: 100 }
+  const width = (700 - margin.left - margin.right)
+  const height = 760 - margin.top - margin.bottom
   const gridSize = Math.floor(width / 24)
   const legendElementWidth = gridSize*2
-  const buckets = 9
+  const buckets = 6
   const colors = ['#edf8e9','#c7e9c0','#a1d99b','#74c476','#31a354','#006d2c']
   const departments =[
     "Bilisim Teknolojileri",
@@ -31,10 +31,12 @@
 const duration = [ "<1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10-15", "15-20", "20-30", ">30"];
 
 const svg = d3.select("#heatmap").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+              .attr({
+                width: width + margin.left + margin.right,
+                height: height + margin.top + margin.bottom
+              })
+              .append("g")
+              .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 const departmentLabels = svg.selectAll(".departmentLabel")
     .data(departments)
@@ -58,6 +60,7 @@ const durationLabels = svg.selectAll(".durationLabel")
       .style("text-anchor", "end")
       .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
       .attr("class", "durationLabel mono axis" );
+
 let heatmapdata = []
 for (let i = 0; i < departments.length; i++){
   for (let k = 0; k < duration.length; k++) {
@@ -121,4 +124,28 @@ cards.enter().append("rect")
     .attr("class", "duration bordered")
     .attr("width", gridSize)
     .attr("height", gridSize)
-    .style("fill", function(d, i) { return colors[Math.round(d.value/2)]; })
+    .style("fill", function(d, i) { return colors[Math.round(d.value/2)]; });
+
+cards.exit().remove();
+
+const legend = svg.selectAll(".legend")
+    .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+
+legend.enter().append("g")
+    .attr("class", "legend");
+
+legend.append("rect")
+  .attr("x", function(d, i) { return legendElementWidth * i; })
+  .attr("y", height)
+  .attr("width", legendElementWidth)
+  .attr("height", gridSize / 2)
+  .style("fill", function(d, i) { return colors[i]; });
+
+legend.append("text")
+  .attr("class", "mono")
+  .text(function(d) {
+    return "≥ " + Math.round(d); })
+  .attr("x", function(d, i) { return legendElementWidth * i; })
+  .attr("y", height + gridSize);
+
+legend.exit().remove();

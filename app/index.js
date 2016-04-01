@@ -6,8 +6,11 @@ const Sankey = require('d3-sankey').sankey;
 const dataJson = require('./data.json');
 const $ = require('jquery')
 const nodeMap = {};
-const formatNumber = d3.format(",.0f");
-const format = function(d) { return formatNumber(d) + " TWh"; };
+const margin = {top: 30, right: 1, bottom: 50, left: 1};
+const width = (960 - margin.left - margin.right);
+const height = 600 - margin.top - margin.bottom;
+const color = d3.scale.category20();
+
 data.nodes = [
     {name: "Bilisim Teknolojileri"},
     {name: "Medya, Iletisim ve Yayincilik"},
@@ -70,11 +73,6 @@ data.links = data.links.map(function(x){
     value: x.value
   }
 });
-
-const margin = {top: 10, right: 1, bottom: 6, left: 1};
-const width = 960 - margin.left - margin.right;
-const height = 600 - margin.top - margin.bottom;
-const color = d3.scale.category20();
 
 const svg = d3.select("#chart").append("svg")
         .attr({
@@ -188,10 +186,6 @@ function fade(opacity) {
      elements = elements.filter(function(d) { return d.name != source })
    })
 
-
-    //  return d.name != data.nodes[i].name
-
-    //  return d.name != source.target.name
    elements.transition()
        .style("opacity", opacity);
 
