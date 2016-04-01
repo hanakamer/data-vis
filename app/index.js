@@ -176,8 +176,22 @@ function dragmove(d) {
 function fade(opacity) {
  return function(g, i) {
    let elements = svg.selectAll(".node");
-   elements = elements.filter(function(d) {
-     return d.name != data.nodes[i].name});
+   let myarray = [];
+   myarray.push(data.nodes[i].name);
+   g.sourceLinks.forEach(function(source){
+     myarray.push(source.target.name);
+   });
+   g.targetLinks.forEach(function(source){
+     myarray.push(source.source.name);
+   });
+   myarray.forEach(function(source){
+     elements = elements.filter(function(d) { return d.name != source })
+   })
+
+
+    //  return d.name != data.nodes[i].name
+
+    //  return d.name != source.target.name
    elements.transition()
        .style("opacity", opacity);
 
