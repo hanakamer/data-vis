@@ -10,7 +10,7 @@ const formatNumber = d3.format(",.0f");
 const format = function(d) { return formatNumber(d) + " TWh"; };
 data.nodes = [
     {name: "Bilisim Teknolojileri"},
-    {name: "Medya, Iletisim ve Tasarim"},
+    {name: "Medya, Iletisim ve Yayincilik"},
     {name: "Muhendis"},
     {name: "Akademik"},
     {name: "Saglik ve Sosyal Hizmetler"},
@@ -27,7 +27,6 @@ data.nodes = [
     {name: "Muhasebe"},
     {name: "Turizm"},
     {name: "Ekonomi"},
-    {name: "Ogrenci"},
     {name: "Sigorta"},
     {name: "-"},
     {name: "?"},
@@ -49,30 +48,34 @@ data.nodes = [
 
 data.nodes.forEach(function(x){
   nodeMap[x.name] = x});
-data.links= dataJson.map(function(x){
-  return {
-    source: x.lisans,
-    target: x.Sektor,
-    class: x.Sektor.replace(/\s+/g, '')+" "+ x.lisans.replace(/\s+/g, '')+" link",
-    value: 1
-  }
-});
+
+data.links = dataJson.reduce(function(result, curr) {
+  result[curr.lisans + "_" + curr.Sektor] = {
+    source: curr.lisans,
+    target: curr.Sektor,
+    class: curr.Sektor.replace(/\s+/g, '')+" "+ curr.lisans.replace(/\s+/g, '')+" link",
+    value: (result[curr.lisans + "_" + curr.Sektor] || { value: 0 }).value + 1,
+  };
+
+  return result;
+}, {});
+
+data.links = Object.keys(data.links).map(key => data.links[key]);
+
 data.links = data.links.map(function(x){
   return {
     source: nodeMap[x.source],
     target: nodeMap[x.target],
     class: x.class,
-    value: 1
+    value: x.value
   }
 });
 
-
-// Some setup stuff.
 const margin = {top: 10, right: 1, bottom: 6, left: 1};
 const width = 960 - margin.left - margin.right;
 const height = 600 - margin.top - margin.bottom;
 const color = d3.scale.category20();
-// SVG (group) to draw in.
+
 const svg = d3.select("#chart").append("svg")
         .attr({
           width: width + margin.left + margin.right,
@@ -80,7 +83,7 @@ const svg = d3.select("#chart").append("svg")
         })
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-// Set up Sankey object.
+
 const sankey = Sankey()
         .nodeWidth(30)
         .nodePadding(10)
@@ -91,7 +94,6 @@ sankey.nodes(data.nodes)
   .links(data.links)
   .layout(32);
 
-// Draw the links.
 const link = svg.append("g").selectAll(".link")
         .data(data.links)
         .enter()
@@ -113,7 +115,7 @@ link.append("title")
         .text(function (d) {
           return d.source.name + " to " + d.target.name + " = " + d.value;
         });
-// Draw the nodes.
+
 const nodes = svg.append("g").selectAll(".node")
         .data(data.nodes)
         .enter()
@@ -124,7 +126,6 @@ const nodes = svg.append("g").selectAll(".node")
             return "translate(" + d.x + "," + d.y + ")";
           }
         })
-        // .on("click",highlight_node_links)
         .call(d3.behavior.drag()
         .origin(function(d) { return d; })
         .on("dragstart", function() {
@@ -132,7 +133,6 @@ const nodes = svg.append("g").selectAll(".node")
         .on("drag", dragmove))
         .on("mouseover", fade(0.3))
 			  .on("mouseout", fade(1));
-
 
 nodes.append("rect")
         .attr({
@@ -144,9 +144,6 @@ nodes.append("rect")
         .style({
           fill: function (d) {
             return d.color = color(d.name.replace(/ .*/, ""));
-          },
-          stroke: function (d) {
-            return d3.rgb(d.color).darker(2);
           }
         })
         .append("title")
